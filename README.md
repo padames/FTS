@@ -6,8 +6,13 @@ set the working directory to the place where the file Main.R is with "setwd(~/pa
 where "path-to-Main" is where the project was copied to. All auxiliary files and subforlders
 with ".sum" files should be in that path.
 
-The subfolders GroupOne FriggStFergus, GroupTwo Friff to MCP01, and GroupThree MCP01 to St Fergus, contain
-all the PIPESIM output files. Main.R and auxiliary scripts assume the .sum files are there.
+The subfolders:
+
+  - GroupOne FriggStFergus
+  - GroupTwo Frigg to MCP01
+  - GroupThree MCP01 to St Fergus,
+  
+contain all the PIPESIM output files. Main.R and auxiliary scripts assume the .sum files are there.
 
 All the results are generated automatically by the script provided the local installation has all the 
 packages used in the scripts. The main ones are:

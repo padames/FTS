@@ -1,0 +1,566 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 14/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 15:47:05  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupTwo Frigg to MCP01\FriggsMCP01-04-DetElev-AllFlowModels-Multiflash-Uo-2.910-Pup.pst
+
+ Job       : 'Friggs to St Fergus Total flow model comparisons'                                                                                                                                                                                                              
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=BBO                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1916.958;
+           T= 44.57741, 44.57741, dt= -.192473-5; H= -87.70197, -87.70197, dh= .1228577-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1916.958;
+           T= 44.57741, 44.57741, dt= -.19224-5; H= -87.70197, -87.70197, dh= .1230533-5
+          
+
+                   0.0    188. 43.84653    96.0     2. 1.407 50.52 51.95    8.4  0.2452 2295.57  10.16 BBRE Wave
+                                                      ------------------               --------
+                                                       1.407 50.52 51.95                2295.57  Liquid by sphere:  2233.375  (m3)
+
+ CASE NO.    2   TYPE=BBOTD                                                                                                        
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1916.676;
+           T= 44.57524, 44.57525, dt= -.19321-5; H= -87.69559, -87.69559, dh= .1222242-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1916.676;
+           T= 44.57524, 44.57525, dt= -.192976-5; H= -87.69559, -87.69559, dh= .1224203-5
+          
+
+                   0.0    188. 43.84652    95.9     2. 1.341 50.69 52.05    8.4  0.2451 2274.59  10.16 BBRE Wave
+                                                      ------------------               --------
+                                                       1.341 50.69 52.05                2274.59  Liquid by sphere:  2212.372  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=BBR                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 135.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.243  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    4   TYPE=BBRTD                                                                                                        
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 136.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.255  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    5   TYPE=BJA                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84501    65.3    -2. .4846 82.09 82.62   12.9  0.1941 182.769   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .4846 82.09 82.62                182.769  Liquid by sphere:    96.687  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    6   TYPE=DKAGAD                                                                                                       
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84859    36.2    -6. .8952 110.7 111.7   24.8  0.0070 60.2238   9.79 BBRE Dispersed Bubble
+                                                      ------------------               --------
+                                                       .8952 110.7 111.7                60.2238  Liquid by sphere:     1.351  (m3)
+
+ CASE NO.    7   TYPE=DKAGAF                                                                                                       
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84868    35.7    -6. .8839 111.2 112.2   25.2  0.0070 667.175   9.88 BBRE Dispersed Bubble
+                                                      ------------------               --------
+                                                       .8839 111.2 112.2                667.175  Liquid by sphere:   266.079  (m3)
+
+ CASE NO.    8   TYPE=LOCKMAR                                                                                                      
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84482    70.8    -1. .6080 76.43 77.08   11.8  0.2050 77.9563   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .6080 76.43 77.08                77.9563  Liquid by sphere:    15.123  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    9   TYPE=LOCKMARTD                                                                                                    
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84482    70.8    -1. .6080 76.43 77.08   11.8  0.2050 77.9563   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .6080 76.43 77.08                77.9563  Liquid by sphere:    15.123  (m3)
+
+ CASE NO.   10   TYPE=MB                                                                                                           
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1301.816;
+           T= 35.69591, 35.69592, dt= -.177952-5; H= -73.84525, -73.84525, dh= .1049777-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1301.816;
+           T= 35.69591, 35.69592, dt= -.177952-5; H= -73.84525, -73.84525, dh= .1049781-5
+          
+
+                   0.0    188. 43.84566    56.5    -3. .1776 91.20 91.44   15.2  0.1756 73.8269   9.36 BBRE Wave
+                                                      ------------------               --------
+                                                       .1776 91.20 91.44                73.8269  Liquid by sphere:    11.932  (m3)
+
+ CASE NO.   11   TYPE=NOSLIP                                                                                                       
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84482    70.8    -1. .6080 76.43 77.08   11.8  0.2050 77.9563   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .6080 76.43 77.08                77.9563  Liquid by sphere:    15.123  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   12   TYPE=OLIEMANS                                                                                                     
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84488    68.4    -1. .7038 78.74 79.49   12.2  0.2004 713.664   9.37 BBRE Wave
+                                                      ------------------               --------
+                                                       .7038 78.74 79.49                713.664  Liquid by sphere:   533.716  (m3)
+
+ CASE NO.   13   TYPE=XIAO                                                                                                         
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84495    66.3    -2. .4759 81.06 81.58   12.7  0.1963 189.460   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .4759 81.06 81.58                189.460  Liquid by sphere:   103.110  (m3)
+
+ CASE NO.   14   TYPE=TU2P                                                                                                         
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1581.064;
+           T= 39.26711, 39.26711, dt= -.203031-5; H= -81.34709, -81.34709, dh= .1004195-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1581.064;
+           T= 39.26711, 39.26711, dt= -.203031-5; H= -81.34709, -81.34709, dh= .1004199-5
+          
+
+                   0.0    188. 43.84480    74.2     0. .7064 72.98 73.72   11.2  0.2113 97.8894   9.34 BBRE Wave
+                                                      ------------------               --------
+                                                       .7064 72.98 73.72                97.8894  Liquid by sphere:    32.479  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   15   TYPE=TBB                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 136.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.262  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   16   TYPE=TDUK                                                                                                         
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1148.905;
+           T= 33.19091, 33.19091, dt= -.150752-5; H= -69.64223, -69.64223, dh= .1165545-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1148.905;
+           T= 33.19091, 33.19091, dt= -.150752-5; H= -69.64223, -69.64223, dh= .1165548-5
+          
+
+                   0.0    188. 43.84766    42.3    -5. 1.013 104.5 105.6   21.0  0.0079 476.402   9.71 BBRE Dispersed Bubble
+                                                      ------------------               --------
+                                                       1.013 104.5 105.6                476.402  Liquid by sphere:   213.522  (m3)
+
+ CASE NO.   17   TYPE=TMB                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84581    56.4    -3. .1697 91.26 91.49   15.2  0.1751 77.4157   9.40 BBRE Wave
+                                                      ------------------               --------
+                                                       .1697 91.26 91.49                77.4157  Liquid by sphere:    14.401  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   18   TYPE=olga_3p_72                                                                                                   
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84486    68.7    -1. .5475 78.60 79.20   12.2  0.2010 215.890   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5475 78.60 79.20                215.890  Liquid by sphere:   127.195  (m3)
+
+                Holdup totals:    Liquid= 215.89 m3    Oil= 215.89 m3    Water= 0 m3    Gas= .1325e8 sm3
+
+ CASE NO.   19   TYPE=olga_2p_72                                                                                                   
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84486    68.7    -1. .5475 78.60 79.20   12.2  0.2010 215.890   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5475 78.60 79.20                215.890  Liquid by sphere:   127.195  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   20   TYPE=olga_3p_627                                                                                                  
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84486    68.5    -1. .5420 78.82 79.41   12.2  0.2006 234.525   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5420 78.82 79.41                234.525  Liquid by sphere:   141.767  (m3)
+
+                Holdup totals:    Liquid= 234.52 m3    Oil= 234.52 m3    Water= 0 m3    Gas= .13238e8 sm3
+
+ CASE NO.   21   TYPE=olga_2p_627                                                                                                  
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84486    68.5    -1. .5420 78.82 79.41   12.2  0.2006 234.525   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5420 78.82 79.41                234.525  Liquid by sphere:   141.767  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   22   TYPE=olga_3p_532                                                                                                  
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84483    69.8    -1. .5807 77.44 78.06   11.9  0.2032 186.734   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5807 77.44 78.06                186.734  Liquid by sphere:   104.824  (m3)
+
+                Holdup totals:    Liquid= 186.73 m3    Oil= 186.73 m3    Water= 0 m3    Gas= .13304e8 sm3
+
+ CASE NO.   23   TYPE=olga_2p_532                                                                                                  
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84483    69.8    -1. .5807 77.44 78.06   11.9  0.2032 186.734   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5807 77.44 78.06                186.734  Liquid by sphere:   104.824  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   24   TYPE=olga_3p_53                                                                                                   
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84483    69.8    -1. .5807 77.44 78.06   11.9  0.2032 186.734   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5807 77.44 78.06                186.734  Liquid by sphere:   104.824  (m3)
+
+                Holdup totals:    Liquid= 186.73 m3    Oil= 186.73 m3    Water= 0 m3    Gas= .13304e8 sm3
+
+ CASE NO.   25   TYPE=olga_2p_53                                                                                                   
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84483    69.8    -1. .5807 77.44 78.06   11.9  0.2032 186.734   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5807 77.44 78.06                186.734  Liquid by sphere:   104.824  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   26   TYPE=olga_3p_50                                                                                                   
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84483    69.8    -1. .5807 77.44 78.06   11.9  0.2032 186.734   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5807 77.44 78.06                186.734  Liquid by sphere:   104.824  (m3)
+
+                Holdup totals:    Liquid= 186.73 m3    Oil= 186.73 m3    Water= 0 m3    Gas= .13304e8 sm3
+
+ CASE NO.   27   TYPE=olga_2p_50                                                                                                   
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84483    69.8    -1. .5807 77.44 78.06   11.9  0.2032 186.734   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .5807 77.44 78.06                186.734  Liquid by sphere:   104.824  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   28   TYPE=BP1                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84491    66.0    -2. .4651 81.43 81.94   12.7  0.1957 168.590   9.29 BBRE Wave
+                                                      ------------------               --------
+                                                       .4651 81.43 81.94                168.590  Liquid by sphere:    86.217  (m3)
+
+ CASE NO.   29   TYPE=BP2                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84491    66.0    -2. .4651 81.43 81.94   12.7  0.1957 168.590   9.29 BBRE Wave
+                                                      ------------------               --------
+                                                       .4651 81.43 81.94                168.590  Liquid by sphere:    86.217  (m3)
+
+ CASE NO.   30   TYPE=TUFFPU3P_e-2                                                                                                 
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1481.522;
+           T= 37.76465, 37.76465, dt= -.139965-5; H= -79.00135, -79.00135, dh= .1456179-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1481.522;
+           T= 37.76465, 37.76465, dt= -.139965-5; H= -79.00135, -79.00135, dh= .1456182-5
+          
+
+                   0.0    188. 43.84534    59.3    -3. .2939 88.23 88.58   14.3  0.1820 130.891   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .2939 88.23 88.58                130.891  Liquid by sphere:    53.644  (m3)
+
+                Holdup totals:    Liquid= 130.89 m3    Oil= 130.89 m3    Water= 0 m3    Gas= .12888e8 sm3
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   31   TYPE=TUFFPU3P_e0                                                                                                  
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1481.522;
+           T= 37.76465, 37.76465, dt= -.139965-5; H= -79.00135, -79.00135, dh= .1456179-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1481.522;
+           T= 37.76465, 37.76465, dt= -.139965-5; H= -79.00135, -79.00135, dh= .1456182-5
+          
+
+                   0.0    188. 43.84534    59.3    -3. .2939 88.23 88.58   14.3  0.1820 130.891   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .2939 88.23 88.58                130.891  Liquid by sphere:    53.644  (m3)
+
+                Holdup totals:    Liquid= 130.89 m3    Oil= 130.89 m3    Water= 0 m3    Gas= .12888e8 sm3
+
+ CASE NO.   32   TYPE=TUFFPU2P                                                                                                     
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1481.522;
+           T= 37.76465, 37.76465, dt= -.139965-5; H= -79.00135, -79.00135, dh= .1456179-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1481.522;
+           T= 37.76465, 37.76465, dt= -.139965-5; H= -79.00135, -79.00135, dh= .1456182-5
+          
+
+                   0.0    188. 43.84534    59.3    -3. .2939 88.23 88.58   14.3  0.1820 130.891   9.32 BBRE Wave
+                                                      ------------------               --------
+                                                       .2939 88.23 88.58                130.891  Liquid by sphere:    53.644  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   33   TYPE=LEDA3P1.2e-2                                                                                                 
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84484    69.7    -1. .5746 77.58 78.20   12.0  0.2029 139.019   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .5746 77.58 78.20                139.019  Liquid by sphere:    64.280  (m3)
+
+                Holdup totals:    Liquid= 139.02 m3    Oil= 139.02 m3    Water= 0 m3    Gas= .13301e8 sm3
+
+ CASE NO.   34   TYPE=LEDA2P1.2                                                                                                    
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84484    69.7    -1. .5746 77.58 78.20   12.0  0.2029 139.019   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .5746 77.58 78.20                139.019  Liquid by sphere:    64.280  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   35   TYPE=Xiao1                                                                                                        
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84513    62.8    -2. .3690 84.67 85.09   13.4  0.1891 265.190   9.33 BBRE Wave
+                                                      ------------------               --------
+                                                       .3690 84.67 85.09                265.190  Liquid by sphere:   156.038  (m3)
+
+ CASE NO.   36   TYPE=Xiao2                                                                                                        
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84513    62.8    -2. .3690 84.67 85.09   13.4  0.1891 265.190   9.33 BBRE Wave
+                                                      ------------------               --------
+                                                       .3690 84.67 85.09                265.190  Liquid by sphere:   156.038  (m3)
+
+ CASE NO.   37   TYPE=BB1                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1915.547;
+           T= 44.54463, 44.54463, dt= -.145825-5; H= -87.68845, -87.68845, dh= .1619181-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1915.547;
+           T= 44.54463, 44.54463, dt= -.145825-5; H= -87.68845, -87.68845, dh= .1619184-5
+          
+
+                   0.0    188. 43.84643    95.3     2. 1.868 50.68 52.57    8.4  0.2444 2294.76  10.13 BBRE Wave
+                                                      ------------------               --------
+                                                       1.868 50.68 52.57                2294.76  Liquid by sphere:  2232.551  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   38   TYPE=BBRev1                                                                                                       
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84579    91.1     1. 5.944 50.80 56.76    8.8  0.2391 13564.5  11.45 BBRE Wave
+                                                      ------------------               --------
+                                                       5.944 50.80 56.76                13564.5  Liquid by sphere: 13510.940  (m3)
+
+ CASE NO.   39   TYPE=BB2                                                                                                          
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 152.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.761  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   40   TYPE=BBRev2                                                                                                       
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 151.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     9.412  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   41   TYPE=Oliemanist1                                                                                                  
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84519    61.4    -2. .3253 86.09 86.47   13.8  0.1864 168.242   9.31 BBRE Wave
+                                                      ------------------               --------
+                                                       .3253 86.09 86.47                168.242  Liquid by sphere:    81.880  (m3)
+
+ CASE NO.   42   TYPE=HughDuk1                                                                                                     
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84823    38.5    -6. -1.40 110.7 109.4   23.2  0.0074 1610.59   9.92 BBRE Dispersed Bubble
+                                                      ------------------               --------
+                                                       -1.40 110.7 109.4                1610.59  Liquid by sphere:   666.989  (m3)
+
+ CASE NO.   43   TYPE=EatonOli1                                                                                                    
+  FriggsToMCP0     0.0    188. 43.86786   147.9    28. 0.000 0.000 0.000    6.3  0.0209 0.00000        BBRE Wave
+                   0.0    188. 43.84489    68.1    -1. .7073 79.01 79.76   12.3  0.1999 759.789   9.38 BBRE Wave
+                                                      ------------------               --------
+                                                       .7073 79.01 79.76                759.789  Liquid by sphere:   569.727  (m3)
+
+
+                                       ******** END OF JOB ******** 
+
+
+
+ Run Totals :
+
+              Cases ...........      43
+                 (of which ....     5 were aborted)
+                CPout .........      43
+              Iterations ......      43
+              Segments ........   39828
+              FCPG calls ......   79799
+              MBAL calls ......  119951
+              FLASH calls .....  444427
+              end job                                                     
+    CPU Seconds   500.308 
+
+

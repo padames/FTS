@@ -1,0 +1,88 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 11/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 16:42:28  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupOne FriggsStFergus\FriggsStFergus-03-DetElev-AllFlowModels-Multiflash-Uo-2.885.psm
+
+ Job       : 'Friggs to St Fergus Total flow model comparisons'                                                                                                                                                                                                              
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=EatonOli1 Inlet Pressure=105.4265 Bara                                                                       
+  FriggsToStFe     0.0     92. 21.33994   105.4    47. 0.000 0.000 0.000    4.9  0.0198 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1271.81;
+           T= 43.30537, 43.30537, dt= -.123331-5; H= -67.04608, -67.04608, dh= .1267929-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1271.81;
+           T= 43.30537, 43.30537, dt= -.12333-5; H= -67.04608, -67.04608, dh= .1267934-5
+          
+
+                   0.0     92. 21.33189    50.0     5. 1.391 54.02 55.43    8.9  0.0071 1488.30   5.31 EATO Wave
+                                                      ------------------               --------
+                                                       1.391 54.02 55.43                1488.30  Liquid by sphere:   881.438  (m3)
+
+ CASE NO.    2   TYPE=BBRev2 Inlet Pressure=119.3877 Bara                                                                          
+  FriggsToStFe     0.0     92. 21.34100   119.4    47. 0.000 0.000 0.000    4.3  0.0202 0.00000        BBRE Wave
+                   0.0     92. 21.33180    49.9     5. 11.44 57.98 69.44    8.9  0.1711 24748.5   6.14 BBRE Wave
+                                                      ------------------               --------
+                                                       11.44 57.98 69.44                24748.5  Liquid by sphere: 14653.135  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=Xiao2 Inlet Pressure=109.3072 Bara                                                                           
+  FriggsToStFe     0.0     92. 21.34021   109.3    47. 0.000 0.000 0.000    4.7  0.0200 0.00000        BBRE Wave
+                   0.0     92. 21.33187    50.0     5. .9751 58.33 59.32    8.9  0.0023 496.175   5.27 XIAO Stratified
+                                                      ------------------               --------
+                                                       .9751 58.33 59.32                496.175  Liquid by sphere:   244.239  (m3)
+
+ CASE NO.    4   TYPE=BBRTD Inlet Pressure=118.2936 Bara                                                                           
+  FriggsToStFe     0.0     92. 21.34091   118.3    47. 0.000 0.000 0.000    4.3  0.0202 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1589.327;
+           T= 43.75785, 43.75785, dt= -.18329-5; H= -78.04448, -78.04448, dh= .1073606-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1589.327;
+           T= 43.75785, 43.75785, dt= -.180571-5; H= -78.04448, -78.04448, dh= .1095197-5
+          
+
+                   0.0     92. 21.33181    49.9     5. 1.124 67.21 68.34    8.9  0.0162 3407.31   5.36 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       1.124 67.21 68.34                3407.31  Liquid by sphere:  1949.313  (m3)
+
+ CASE NO.    5   TYPE=Xiao1 Inlet Pressure=109.3072 Bara                                                                           
+  FriggsToStFe     0.0     92. 21.34021   109.3    47. 0.000 0.000 0.000    4.7  0.0200 0.00000        BBRE Wave
+                   0.0     92. 21.33187    50.0     5. .9751 58.33 59.32    8.9  0.0023 496.175   5.27 XIAO Stratified
+                                                      ------------------               --------
+                                                       .9751 58.33 59.32                496.175  Liquid by sphere:   244.239  (m3)

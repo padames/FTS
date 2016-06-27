@@ -1,0 +1,432 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 14/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 16:44:32  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupTwo Frigg to MCP01\FriggsMCP01-02-CoarseElev-AllFlowModels-Multiflash-Uo-2.908-Pup.pst
+
+ Job       : 'Friggs to St Fergus Total flow model comparisons'                                                                                                                                                                                                              
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=BBO                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0001 0.00000        B/B SEGREGATED
+                   0.0    167. 38.94487   113.4     4. 1.206 33.78 35.00    6.2  0.1823 2345.49  11.31 B/B SEGREGATED
+                                                      ------------------               --------
+                                                       1.206 33.78 35.00                2345.49  Liquid by sphere:  2283.732  (m3)
+
+ CASE NO.    2   TYPE=BBOTD                                                                                                        
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0001 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94528   114.6     4. -.048 33.79 33.75    6.2  0.0233 2327.34  11.48 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       -.048 33.79 33.75                2327.34  Liquid by sphere:  2265.561  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=BBR                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0001 0.00000        B/B SEGREGATED
+                   0.0    167. 38.94199    45.6    -4. -1.30 104.1 102.8   17.2  0.0079 1754.07   9.69 B/B DISTRIBUTED
+                                                      ------------------               --------
+                                                       -1.30 104.1 102.8                1754.07  Liquid by sphere:   921.398  (m3)
+
+ CASE NO.    4   TYPE=BBRTD                                                                                                        
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0001 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94193    46.9    -3. -1.23 102.7 101.5   16.7  0.0134 1771.81   9.70 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       -1.23 102.7 101.5                1771.81  Liquid by sphere:   963.419  (m3)
+
+ CASE NO.    5   TYPE=BJA                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0007 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94103    89.6     2. -.664 59.48 58.84    8.1  0.0023 169.423   9.70 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       -.664 59.48 58.84                169.423  Liquid by sphere:   103.109  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    6   TYPE=DKAGAD                                                                                                       
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94038    70.5     1. 1.911 75.93 77.87   10.6  0.0006 63.3352   9.37 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       1.911 75.93 77.87                63.3352  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.    7   TYPE=DKAGAF                                                                                                       
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0075 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94039    70.2     1. 1.905 76.24 78.18   10.7  0.0070 721.924   9.44 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       1.905 76.24 78.18                721.924  Liquid by sphere:   540.873  (m3)
+
+ CASE NO.    8   TYPE=LOCKMAR                                                                                                      
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        NONE
+                   0.0    167. 38.94148    93.7     3. -.624 55.31 54.70    7.7  0.0007 64.6754   9.84 NONE
+                                                      ------------------               --------
+                                                       -.624 55.31 54.70                64.6754  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    9   TYPE=LOCKMARTD                                                                                                    
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94148    93.7     3. -.624 55.31 54.70    7.7  0.0007 64.6754   9.84 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       -.624 55.31 54.70                64.6754  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.   10   TYPE=MB                                                                                                           
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0000 0.00000        M & B MIST
+                   0.0    167. 38.94048    83.1     2. -.787 66.11 65.35    8.8  0.0017 84.6938   9.49 M & B MIST
+                                                      ------------------               --------
+                                                       -.787 66.11 65.35                84.6938  Liquid by sphere:    16.576  (m3)
+
+ CASE NO.   11   TYPE=NOSLIP                                                                                                       
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        GAS
+                   0.0    167. 38.94148    93.7     3. -.624 55.31 54.70    7.7  0.0007 64.6754   9.84 GAS
+                                                      ------------------               --------
+                                                       -.624 55.31 54.70                64.6754  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   12   TYPE=OLIEMANS                                                                                                     
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0075 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94130    92.2     3. -.526 56.72 56.21    7.8  0.0079 738.560   9.85 T/D INTERMITTENT
+                                                      ------------------               --------
+                                                       -.526 56.72 56.21                738.560  Liquid by sphere:   674.411  (m3)
+
+ CASE NO.   13   TYPE=XIAO                                                                                                         
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0008 0.00000        XIAO STRAT WAVY
+                   0.0    167. 38.94025    86.4     1. 3.551 58.39 61.96    8.3  0.5037 230.941   9.44 XIAO STRAT WAVY
+                                                      ------------------               --------
+                                                       3.551 58.39 61.96                230.941  Liquid by sphere:   163.171  (m3)
+
+ CASE NO.   14   TYPE=TU2P                                                                                                         
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0006 0.00000        ZHANG stratified
+                   0.0    167. 38.94173    95.7     3. -.589 53.31 52.74    7.5  0.0010 85.4143   9.93 ZHANG annular
+                                                      ------------------               --------
+                                                       -.589 53.31 52.74                85.4143  Liquid by sphere:    20.730  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   15   TYPE=TBB                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0000 0.00000        BB SEGREGATED
+                   0.0    167. 38.94194    45.9    -4. -1.29 103.7 102.5   17.0  0.0079 1755.25   9.68 BB DISTRIBUTED
+                                                      ------------------               --------
+                                                       -1.29 103.7 102.5                1755.25  Liquid by sphere:   929.584  (m3)
+
+ CASE NO.   16   TYPE=TDUK                                                                                                         
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0051 0.00000        DUKLER 2-PHASE
+                   0.0    167. 38.94036    73.1     1. 1.951 73.34 75.32   10.2  0.0047 532.770   9.43 DUKLER 2-PHASE
+                                                      ------------------               --------
+                                                       1.951 73.34 75.32                532.770  Liquid by sphere:   397.209  (m3)
+
+ CASE NO.   17   TYPE=TMB                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0000 0.00000        MB MIST
+                   0.0    167. 38.94042    82.7     1. -.791 66.46 65.69    8.8  0.0017 84.7085   9.47 MB MIST
+                                                      ------------------               --------
+                                                       -.791 66.46 65.69                84.7085  Liquid by sphere:    16.555  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   18   TYPE=olga_3p_72                                                                                                   
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0011 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94123    92.0     2. -.247 56.68 56.45    7.8  0.0491 235.342   9.77 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.247 56.68 56.45                235.342  Liquid by sphere:   170.821  (m3)
+
+                Holdup totals:    Liquid= 235.34 m3    Oil= 235.34 m3    Water= 0 m3    Gas= .14492e8 sm3
+
+ CASE NO.   19   TYPE=olga_2p_72                                                                                                   
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0011 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94123    92.0     2. -.247 56.68 56.45    7.8  0.0491 235.342   9.77 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.247 56.68 56.45                235.342  Liquid by sphere:   170.821  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   20   TYPE=olga_3p_627                                                                                                  
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0011 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94122    91.9     2. -.245 56.72 56.49    7.8  0.0493 253.358   9.77 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.245 56.72 56.49                253.358  Liquid by sphere:   188.849  (m3)
+
+                Holdup totals:    Liquid= 253.36 m3    Oil= 253.36 m3    Water= 0 m3    Gas= .14486e8 sm3
+
+ CASE NO.   21   TYPE=olga_2p_627                                                                                                  
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0011 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94122    91.9     2. -.245 56.72 56.49    7.8  0.0493 253.358   9.77 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.245 56.72 56.49                253.358  Liquid by sphere:   188.849  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   22   TYPE=olga_3p_532                                                                                                  
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94136    92.7     3. -.631 56.29 55.67    7.8  0.0022 195.554   9.81 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.631 56.29 55.67                195.554  Liquid by sphere:   131.001  (m3)
+
+                Holdup totals:    Liquid= 195.55 m3    Oil= 195.55 m3    Water= 0 m3    Gas= .1452e8 sm3
+
+ CASE NO.   23   TYPE=olga_2p_532                                                                                                  
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94136    92.7     3. -.631 56.29 55.67    7.8  0.0022 195.554   9.81 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.631 56.29 55.67                195.554  Liquid by sphere:   131.001  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   24   TYPE=olga_3p_53                                                                                                   
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94136    92.7     3. -.631 56.29 55.67    7.8  0.0022 195.554   9.81 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.631 56.29 55.67                195.554  Liquid by sphere:   131.001  (m3)
+
+                Holdup totals:    Liquid= 195.55 m3    Oil= 195.55 m3    Water= 0 m3    Gas= .1452e8 sm3
+
+ CASE NO.   25   TYPE=olga_2p_53                                                                                                   
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94136    92.7     3. -.631 56.29 55.67    7.8  0.0022 195.554   9.81 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.631 56.29 55.67                195.554  Liquid by sphere:   131.001  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   26   TYPE=olga_3p_50                                                                                                   
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94136    92.7     3. -.631 56.29 55.67    7.8  0.0022 195.554   9.81 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.631 56.29 55.67                195.554  Liquid by sphere:   131.001  (m3)
+
+                Holdup totals:    Liquid= 195.55 m3    Oil= 195.55 m3    Water= 0 m3    Gas= .1452e8 sm3
+
+ CASE NO.   27   TYPE=olga_2p_50                                                                                                   
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94136    92.7     3. -.631 56.29 55.67    7.8  0.0022 195.554   9.81 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.631 56.29 55.67                195.554  Liquid by sphere:   131.001  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   28   TYPE=BP1                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0009 0.00000        BP1 Strat. Wavy
+                   0.0    167. 38.94104    90.9     2. .1769 57.32 57.52    7.9  0.1007 190.438   9.70 BP1 Intermittent
+                                                      ------------------               --------
+                                                       .1769 57.32 57.52                190.438  Liquid by sphere:   125.893  (m3)
+
+ CASE NO.   29   TYPE=BP2                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0009 0.00000        BP2 Strat. Wavy
+                   0.0    167. 38.94104    90.9     2. .1769 57.32 57.52    7.9  0.1007 190.438   9.70 BP2 Intermittent
+                                                      ------------------               --------
+                                                       .1769 57.32 57.52                190.438  Liquid by sphere:   125.893  (m3)
+
+ CASE NO.   30   TYPE=TUFFPU3P_e-2                                                                                                 
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        TUFF Stratified, Water/Oil
+                   0.0    167. 38.94088    88.1     2. -.719 60.98 60.28    8.2  0.0008 74.3485   9.63 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -.719 60.98 60.28                74.3485  Liquid by sphere:     9.647  (m3)
+
+                Holdup totals:    Liquid= 74.348 m3    Oil= 74.348 m3    Water= 0 m3    Gas= .14312e8 sm3
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   31   TYPE=TUFFPU3P_e0                                                                                                  
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        TUFF Stratified, Water/Oil
+                   0.0    167. 38.94088    88.1     2. -.719 60.98 60.28    8.2  0.0008 74.3485   9.63 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -.719 60.98 60.28                74.3485  Liquid by sphere:     9.647  (m3)
+
+                Holdup totals:    Liquid= 74.348 m3    Oil= 74.348 m3    Water= 0 m3    Gas= .14312e8 sm3
+
+ CASE NO.   32   TYPE=TUFFPU2P                                                                                                     
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        TUFF Stratified
+                   0.0    167. 38.94088    88.1     2. -.719 60.98 60.28    8.2  0.0008 74.3485   9.63 TUFF Stratified
+                                                      ------------------               --------
+                                                       -.719 60.98 60.28                74.3485  Liquid by sphere:     9.647  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   33   TYPE=LEDA3P1.2e-2                                                                                                 
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0007 0.00000        LEDA Strat. Wavy, Water/Oil
+                   0.0    167. 38.94131    92.5     3. -.420 56.32 55.91    7.8  0.0246 168.589   9.79 LEDA Strat. Smooth, Water/Oil
+                                                      ------------------               --------
+                                                       -.420 56.32 55.91                168.589  Liquid by sphere:   103.563  (m3)
+
+                Holdup totals:    Liquid= 168.59 m3    Oil= 168.59 m3    Water= 0 m3    Gas= .14525e8 sm3
+
+ CASE NO.   34   TYPE=LEDA2P1.2                                                                                                    
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0007 0.00000        LEDA Strat. Wavy
+                   0.0    167. 38.94131    92.5     3. -.420 56.32 55.91    7.8  0.0246 168.589   9.79 LEDA Strat. Smooth
+                                                      ------------------               --------
+                                                       -.420 56.32 55.91                168.589  Liquid by sphere:   103.563  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   35   TYPE=Xiao1                                                                                                        
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0012 0.00000        XIAO Stratified
+                   0.0    167. 38.94022    84.9     1. 2.781 60.75 63.55    8.5  0.4140 300.237   9.44 XIAO Stratified
+                                                      ------------------               --------
+                                                       2.781 60.75 63.55                300.237  Liquid by sphere:   228.499  (m3)
+
+ CASE NO.   36   TYPE=Xiao2                                                                                                        
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0012 0.00000        XIAO Stratified
+                   0.0    167. 38.94022    84.9     1. 2.781 60.75 63.55    8.5  0.4140 300.237   9.44 XIAO Stratified
+                                                      ------------------               --------
+                                                       2.781 60.75 63.55                300.237  Liquid by sphere:   228.499  (m3)
+
+ CASE NO.   37   TYPE=BB1                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        BB1 Wave
+                   0.0    167. 38.94483   113.2     4. 1.363 33.83 35.20    6.2  0.1822 2345.60  11.29 BB1 Wave
+                                                      ------------------               --------
+                                                       1.363 33.83 35.20                2345.60  Liquid by sphere:  2283.818  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   38   TYPE=BBRev1                                                                                                       
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0210 0.00000        BBRE Wave
+                   0.0    167. 38.94381   109.1     3. 3.283 36.04 39.33    6.5  0.2622 13952.9  12.59 BBRE Wave
+                                                      ------------------               --------
+                                                       3.283 36.04 39.33                13952.9  Liquid by sphere: 13900.129  (m3)
+
+ CASE NO.   39   TYPE=BB2                                                                                                          
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0005 0.00000        BB2 Wave
+                   0.0    167. 38.93999    78.0     0. .6336 69.75 70.41    9.4  0.1526 2301.69   9.55 BB2 Wave
+                                                      ------------------               --------
+                                                       .6336 69.75 70.41                2301.69  Liquid by sphere:  2028.165  (m3)
+
+ CASE NO.   40   TYPE=BBRev2                                                                                                       
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0210 0.00000        BBRE Wave
+                   0.0    167. 38.94000    75.8     0. 2.468 70.14 72.64    9.7  0.2173 13443.5  10.95 BBRE Wave
+                                                      ------------------               --------
+                                                       2.468 70.14 72.64                13443.5  Liquid by sphere: 11470.679  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   41   TYPE=Oliemanist1                                                                                                  
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0008 0.00000        OLIE Wave
+                   0.0    167. 38.94091    88.5     2. -.684 60.57 59.90    8.2  0.0044 157.077   9.66 OLIE Intermittent
+                                                      ------------------               --------
+                                                       -.684 60.57 59.90                157.077  Liquid by sphere:    90.543  (m3)
+
+ CASE NO.   42   TYPE=HughDuk1                                                                                                     
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0205 0.00000        HUGH Wave
+                   0.0    167. 38.94030    73.1     1. -.743 76.04 75.32   10.2  0.0054 2585.64   9.64 HUGH Intermittent
+                                                      ------------------               --------
+                                                       -.743 76.04 75.32                2585.64  Liquid by sphere:  2126.771  (m3)
+
+ CASE NO.   43   TYPE=EatonOli1                                                                                                    
+  FriggsToMCP0     0.0    167. 38.96084   148.4    29. 0.000 0.000 0.000    5.6  0.0080 0.00000        EATO Wave
+                   0.0    167. 38.94128    92.0     3. -.521 56.88 56.37    7.8  0.0084 782.152   9.85 EATO Intermittent
+                                                      ------------------               --------
+                                                       -.521 56.88 56.37                782.152  Liquid by sphere:   718.038  (m3)
+
+
+                                       ******** END OF JOB ******** 
+
+
+
+ Run Totals :
+
+              Cases ...........      43
+                CPout .........      43
+              Iterations ......      43
+              Segments ........    3354
+              FCPG calls ......    6863
+              MBAL calls ......   10544
+              FLASH calls .....   41838
+              end job                                                     
+    CPU Seconds    34.048 
+
+

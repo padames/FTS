@@ -1,0 +1,432 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 14/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 21:48:26  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupThree MCP01 to St Fergus\MCP01StFergus-05-CoarseElev-AllFlowModels-Multiflash-Uo-2.907-Pup.pst
+
+ Job       : 'Friggs to St Fergus Total flow model comparisons'                                                                                                                                                                                                              
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=BBO Inlet Pressure=113.8136 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95156   113.8    23. 0.000 0.000 0.000    7.1  0.0001 0.00000        B/B SEGREGATED
+                   0.0    167. 38.94265    48.0     0. -.760 66.52 65.81   16.6  0.0087 1871.09  10.70 B/B DISTRIBUTED
+                                                      ------------------               --------
+                                                       -.760 66.52 65.81                1871.09  Liquid by sphere:  1082.787  (m3)
+
+ CASE NO.    2   TYPE=BBOTD Inlet Pressure=113.5263 Bara                                                                           
+  MCP01ToStFer     0.0    167. 38.95151   113.5    23. 0.000 0.000 0.000    7.1  0.0001 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94273    48.0     1. -.736 66.20 65.53   16.6  0.0180 1885.68  10.73 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.736 66.20 65.53                1885.68  Liquid by sphere:  1101.194  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=BBR Inlet Pressure=144.2809 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95811   144.3    23. 0.000 0.000 0.000    5.5  0.0001 0.00000        B/B SEGREGATED
+                   0.0    167. 38.94183    48.0    -3. -1.06 97.24 96.25   16.2  0.0082 1520.97  10.41 B/B DISTRIBUTED
+                                                      ------------------               --------
+                                                       -1.06 97.24 96.25                1520.97  Liquid by sphere:   839.799  (m3)
+
+ CASE NO.    4   TYPE=BBRTD Inlet Pressure=144.1616 Bara                                                                           
+  MCP01ToStFer     0.0    167. 38.95808   144.2    23. 0.000 0.000 0.000    5.5  0.0001 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94189    48.0    -3. -1.06 97.15 96.15   16.3  0.0169 1521.65  10.43 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -1.06 97.15 96.15                1521.65  Liquid by sphere:   843.912  (m3)
+
+ CASE NO.    5   TYPE=BJA Inlet Pressure=124.8214 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95359   124.8    23. 0.000 0.000 0.000    6.4  0.0009 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94245    48.0     0. -.989 77.76 76.83   16.5  0.0017 163.384  10.42 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.989 77.76 76.83                163.384  Liquid by sphere:    64.711  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    6   TYPE=DKAGAD Inlet Pressure=134.5518 Bara                                                                          
+  MCP01ToStFer     0.0    167. 38.95570   134.6    23. 0.000 0.000 0.000    5.9  0.0006 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94230    48.0    -1. 1.487 85.00 86.55   16.4  0.0004 55.6889  10.37 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       1.487 85.00 86.55                55.6889  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.    7   TYPE=DKAGAF Inlet Pressure=134.644 Bara                                                                           
+  MCP01ToStFer     0.0    167. 38.95572   134.6    23. 0.000 0.000 0.000    5.9  0.0078 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94231    48.0    -1. 1.487 85.14 86.69   16.5  0.0056 639.115  10.45 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       1.487 85.14 86.69                639.115  Liquid by sphere:   334.312  (m3)
+
+ CASE NO.    8   TYPE=LOCKMAR Inlet Pressure=122.5231 Bara                                                                         
+  MCP01ToStFer     0.0    167. 38.95313   122.5    23. 0.000 0.000 0.000    6.6  0.0006 0.00000        NONE
+                   0.0    167. 38.94249    48.0     0. -.990 75.44 74.51   16.5  0.0004 54.1736  10.42 NONE
+                                                      ------------------               --------
+                                                       -.990 75.44 74.51                54.1736  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    9   TYPE=LOCKMARTD Inlet Pressure=122.5231 Bara                                                                       
+  MCP01ToStFer     0.0    167. 38.95313   122.5    23. 0.000 0.000 0.000    6.6  0.0006 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94249    48.0     0. -.990 75.44 74.51   16.5  0.0004 54.1736  10.42 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.990 75.44 74.51                54.1736  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.   10   TYPE=MB Inlet Pressure=124.754 Bara                                                                               
+  MCP01ToStFer     0.0    167. 38.95357   124.8    23. 0.000 0.000 0.000    6.4  0.0000 0.00000        M & B MIST
+                   0.0    167. 38.94236    48.0    -1. -1.00 77.71 76.77   16.5  0.0004 33.9697  10.37 M & B MIST
+                                                      ------------------               --------
+                                                       -1.00 77.71 76.77                33.9697  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.   11   TYPE=NOSLIP Inlet Pressure=122.5231 Bara                                                                          
+  MCP01ToStFer     0.0    167. 38.95313   122.5    23. 0.000 0.000 0.000    6.6  0.0006 0.00000        GAS
+                   0.0    167. 38.94249    48.0     0. -.990 75.44 74.51   16.5  0.0004 54.1736  10.42 GAS
+                                                      ------------------               --------
+                                                       -.990 75.44 74.51                54.1736  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   12   TYPE=OLIEMANS Inlet Pressure=123.4329 Bara                                                                        
+  MCP01ToStFer     0.0    167. 38.95331   123.4    23. 0.000 0.000 0.000    6.5  0.0078 0.00000        T/D STRAT. WAVY
+                   0.0    167. 38.94247    48.0     0. -.900 76.27 75.43   16.5  0.0056 627.862  10.49 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.900 76.27 75.43                627.862  Liquid by sphere:   334.766  (m3)
+
+ CASE NO.   13   TYPE=XIAO Inlet Pressure=124.6017 Bara                                                                            
+  MCP01ToStFer     0.0    167. 38.95354   124.6    23. 0.000 0.000 0.000    6.5  0.0011 0.00000        XIAO STRAT WAVY
+                   0.0    167. 38.94243    48.0     0. -1.01 77.56 76.62   16.5  0.0016 166.728  10.42 XIAO STRAT WAVY
+                                                      ------------------               --------
+                                                       -1.01 77.56 76.62                166.728  Liquid by sphere:    66.126  (m3)
+
+ CASE NO.   14   TYPE=TU2P Inlet Pressure=121.1792 Bara                                                                            
+  MCP01ToStFer     0.0    167. 38.95287   121.2    23. 0.000 0.000 0.000    6.6  0.0008 0.00000        ZHANG annular
+                   0.0    167. 38.94252    48.0     0. -.975 74.11 73.19   16.5  0.0006 72.8924  10.43 ZHANG annular
+                                                      ------------------               --------
+                                                       -.975 74.11 73.19                72.8924  Liquid by sphere:    11.216  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   15   TYPE=TBB Inlet Pressure=144.1869 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95808   144.2    23. 0.000 0.000 0.000    5.5  0.0000 0.00000        BB SEGREGATED
+                   0.0    167. 38.94184    48.0    -3. -1.06 97.14 96.15   16.3  0.0082 1520.87  10.41 BB DISTRIBUTED
+                                                      ------------------               --------
+                                                       -1.06 97.14 96.15                1520.87  Liquid by sphere:   839.723  (m3)
+
+ CASE NO.   16   TYPE=TDUK Inlet Pressure=133.1131 Bara                                                                            
+  MCP01ToStFer     0.0    167. 38.95537   133.1    23. 0.000 0.000 0.000    6.0  0.0055 0.00000        DUKLER 2-PHASE
+                   0.0    167. 38.94235    48.0    -1. 1.475 83.54 85.08   16.5  0.0034 451.321  10.44 DUKLER 2-PHASE
+                                                      ------------------               --------
+                                                       1.475 83.54 85.08                451.321  Liquid by sphere:   225.335  (m3)
+
+ CASE NO.   17   TYPE=TMB Inlet Pressure=123.6584 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95335   123.7    23. 0.000 0.000 0.000    6.5  0.0000 0.00000        MB MIST
+                   0.0    167. 38.94249    48.0     0. -.997 76.60 75.66   16.5  0.0004 33.1150  10.42 MB MIST
+                                                      ------------------               --------
+                                                       -.997 76.60 75.66                33.1150  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   18   TYPE=olga_3p_72 Inlet Pressure=123.8251 Bara                                                                      
+  MCP01ToStFer     0.0    167. 38.95339   123.8    23. 0.000 0.000 0.000    6.5  0.0014 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94244    48.0     0. -1.00 76.77 75.83   16.5  0.0015 194.636  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.00 76.77 75.83                194.636  Liquid by sphere:    81.020  (m3)
+
+                Holdup totals:    Liquid= 194.64 m3    Oil= 194.64 m3    Water= 0 m3    Gas= .98436e7 sm3
+
+ CASE NO.   19   TYPE=olga_2p_72 Inlet Pressure=123.8251 Bara                                                                      
+  MCP01ToStFer     0.0    167. 38.95339   123.8    23. 0.000 0.000 0.000    6.5  0.0014 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94244    48.0     0. -1.00 76.77 75.83   16.5  0.0015 194.636  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.00 76.77 75.83                194.636  Liquid by sphere:    81.020  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   20   TYPE=olga_3p_627 Inlet Pressure=123.8857 Bara                                                                     
+  MCP01ToStFer     0.0    167. 38.95340   123.9    23. 0.000 0.000 0.000    6.5  0.0014 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94243    48.0     0. -1.00 76.83 75.89   16.5  0.0017 213.300  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.00 76.83 75.89                213.300  Liquid by sphere:    91.806  (m3)
+
+                Holdup totals:    Liquid= 213.3 m3    Oil= 213.3 m3    Water= 0 m3    Gas= .98486e7 sm3
+
+ CASE NO.   21   TYPE=olga_2p_627 Inlet Pressure=123.8857 Bara                                                                     
+  MCP01ToStFer     0.0    167. 38.95340   123.9    23. 0.000 0.000 0.000    6.5  0.0014 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94243    48.0     0. -1.00 76.83 75.89   16.5  0.0017 213.300  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.00 76.83 75.89                213.300  Liquid by sphere:    91.806  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   22   TYPE=olga_3p_532 Inlet Pressure=123.4522 Bara                                                                     
+  MCP01ToStFer     0.0    167. 38.95331   123.5    23. 0.000 0.000 0.000    6.5  0.0013 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94245    48.0     0. -.998 76.39 75.45   16.5  0.0013 164.927  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.998 76.39 75.45                164.927  Liquid by sphere:    64.010  (m3)
+
+                Holdup totals:    Liquid= 164.93 m3    Oil= 164.93 m3    Water= 0 m3    Gas= .9818e7 sm3
+
+ CASE NO.   23   TYPE=olga_2p_532 Inlet Pressure=123.4522 Bara                                                                     
+  MCP01ToStFer     0.0    167. 38.95331   123.5    23. 0.000 0.000 0.000    6.5  0.0013 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94245    48.0     0. -.998 76.39 75.45   16.5  0.0013 164.927  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.998 76.39 75.45                164.927  Liquid by sphere:    64.010  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   24   TYPE=olga_3p_53 Inlet Pressure=123.4522 Bara                                                                      
+  MCP01ToStFer     0.0    167. 38.95331   123.5    23. 0.000 0.000 0.000    6.5  0.0013 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94245    48.0     0. -.998 76.39 75.45   16.5  0.0013 164.927  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.998 76.39 75.45                164.927  Liquid by sphere:    64.010  (m3)
+
+                Holdup totals:    Liquid= 164.93 m3    Oil= 164.93 m3    Water= 0 m3    Gas= .9818e7 sm3
+
+ CASE NO.   25   TYPE=olga_2p_53 Inlet Pressure=123.4522 Bara                                                                      
+  MCP01ToStFer     0.0    167. 38.95331   123.5    23. 0.000 0.000 0.000    6.5  0.0013 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94245    48.0     0. -.998 76.39 75.45   16.5  0.0013 164.927  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.998 76.39 75.45                164.927  Liquid by sphere:    64.010  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   26   TYPE=olga_3p_50 Inlet Pressure=123.4522 Bara                                                                      
+  MCP01ToStFer     0.0    167. 38.95331   123.5    23. 0.000 0.000 0.000    6.5  0.0013 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94245    48.0     0. -.998 76.39 75.45   16.5  0.0013 164.927  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.998 76.39 75.45                164.927  Liquid by sphere:    64.010  (m3)
+
+                Holdup totals:    Liquid= 164.93 m3    Oil= 164.93 m3    Water= 0 m3    Gas= .9818e7 sm3
+
+ CASE NO.   27   TYPE=olga_2p_50 Inlet Pressure=123.4522 Bara                                                                      
+  MCP01ToStFer     0.0    167. 38.95331   123.5    23. 0.000 0.000 0.000    6.5  0.0013 0.00000        OLGA Strat. Wavy
+                   0.0    167. 38.94245    48.0     0. -.998 76.39 75.45   16.5  0.0013 164.927  10.42 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.998 76.39 75.45                164.927  Liquid by sphere:    64.010  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   28   TYPE=BP1 Inlet Pressure=125.2375 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95367   125.2    23. 0.000 0.000 0.000    6.4  0.0011 0.00000        BP1 Strat. Wavy
+                   0.0    167. 38.94235    48.0    -1. -1.02 78.19 77.24   16.5  0.0007 142.483  10.39 BP1 Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.02 78.19 77.24                142.483  Liquid by sphere:    49.269  (m3)
+
+ CASE NO.   29   TYPE=BP2 Inlet Pressure=125.2375 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95367   125.2    23. 0.000 0.000 0.000    6.4  0.0011 0.00000        BP2 Strat. Wavy
+                   0.0    167. 38.94235    48.0    -1. -1.02 78.19 77.24   16.5  0.0007 142.483  10.39 BP2 Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.02 78.19 77.24                142.483  Liquid by sphere:    49.269  (m3)
+
+ CASE NO.   30   TYPE=TUFFPU3P_e-2 Inlet Pressure=127.0847 Bara                                                                    
+  MCP01ToStFer     0.0    167. 38.95405   127.1    23. 0.000 0.000 0.000    6.3  0.0007 0.00000        TUFF Stratified, Water/Oil
+                   0.0    167. 38.94232    48.0    -1. -1.04 80.02 79.04   16.4  0.0005 64.5718  10.37 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -1.04 80.02 79.04                64.5718  Liquid by sphere:     5.501  (m3)
+
+                Holdup totals:    Liquid= 64.572 m3    Oil= 64.572 m3    Water= 0 m3    Gas= .10137e8 sm3
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   31   TYPE=TUFFPU3P_e0 Inlet Pressure=127.0847 Bara                                                                     
+  MCP01ToStFer     0.0    167. 38.95405   127.1    23. 0.000 0.000 0.000    6.3  0.0007 0.00000        TUFF Stratified, Water/Oil
+                   0.0    167. 38.94232    48.0    -1. -1.04 80.02 79.04   16.4  0.0005 64.5718  10.37 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -1.04 80.02 79.04                64.5718  Liquid by sphere:     5.501  (m3)
+
+                Holdup totals:    Liquid= 64.572 m3    Oil= 64.572 m3    Water= 0 m3    Gas= .10137e8 sm3
+
+ CASE NO.   32   TYPE=TUFFPU2P Inlet Pressure=127.0847 Bara                                                                        
+  MCP01ToStFer     0.0    167. 38.95405   127.1    23. 0.000 0.000 0.000    6.3  0.0007 0.00000        TUFF Stratified
+                   0.0    167. 38.94232    48.0    -1. -1.04 80.02 79.04   16.4  0.0005 64.5718  10.37 TUFF Stratified
+                                                      ------------------               --------
+                                                       -1.04 80.02 79.04                64.5718  Liquid by sphere:     5.501  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   33   TYPE=LEDA3P1.2e-2 Inlet Pressure=123.2987 Bara                                                                    
+  MCP01ToStFer     0.0    167. 38.95328   123.3    23. 0.000 0.000 0.000    6.5  0.0010 0.00000        LEDA Strat. Wavy, Water/Oil
+                   0.0    167. 38.94248    48.0     0. -1.00 76.24 75.30   16.5  0.0006 121.839  10.43 LEDA Strat. Wavy, Water/Oil
+                                                      ------------------               --------
+                                                       -1.00 76.24 75.30                121.839  Liquid by sphere:    37.203  (m3)
+
+                Holdup totals:    Liquid= 121.84 m3    Oil= 121.84 m3    Water= 0 m3    Gas= .97891e7 sm3
+
+ CASE NO.   34   TYPE=LEDA2P1.2 Inlet Pressure=123.2987 Bara                                                                       
+  MCP01ToStFer     0.0    167. 38.95328   123.3    23. 0.000 0.000 0.000    6.5  0.0010 0.00000        LEDA Strat. Wavy
+                   0.0    167. 38.94248    48.0     0. -1.00 76.24 75.30   16.5  0.0006 121.839  10.43 LEDA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.00 76.24 75.30                121.839  Liquid by sphere:    37.203  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   35   TYPE=Xiao1 Inlet Pressure=126.1871 Bara                                                                           
+  MCP01ToStFer     0.0    167. 38.95387   126.2    23. 0.000 0.000 0.000    6.4  0.0015 0.00000        XIAO Stratified
+                   0.0    167. 38.94238    48.0    -1. -1.02 79.15 78.18   16.5  0.0024 238.673  10.41 XIAO Stratified
+                                                      ------------------               --------
+                                                       -1.02 79.15 78.18                238.673  Liquid by sphere:   107.712  (m3)
+
+ CASE NO.   36   TYPE=Xiao2 Inlet Pressure=126.1871 Bara                                                                           
+  MCP01ToStFer     0.0    167. 38.95387   126.2    23. 0.000 0.000 0.000    6.4  0.0015 0.00000        XIAO Stratified
+                   0.0    167. 38.94238    48.0    -1. -1.02 79.15 78.18   16.5  0.0024 238.673  10.41 XIAO Stratified
+                                                      ------------------               --------
+                                                       -1.02 79.15 78.18                238.673  Liquid by sphere:   107.712  (m3)
+
+ CASE NO.   37   TYPE=BB1 Inlet Pressure=113.6638 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95154   113.7    23. 0.000 0.000 0.000    7.1  0.0006 0.00000        BB1 Wave
+                   0.0    167. 38.94273    48.0     1. -.564 66.17 65.66   16.6  0.0180 1886.26  10.73 BB1 Wave
+                                                      ------------------               --------
+                                                       -.564 66.17 65.66                1886.26  Liquid by sphere:  1101.181  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   38   TYPE=BBRev1 Inlet Pressure=113.7365 Bara                                                                          
+  MCP01ToStFer     0.0    167. 38.95155   113.7    23. 0.000 0.000 0.000    7.1  0.0228 0.00000        BBRE Wave
+                   0.0    167. 38.94272    47.9     1. 1.219 64.52 65.79   16.6  0.0086 5674.78  11.25 BBRE Dispersed Bubble
+                                                      ------------------               --------
+                                                       1.219 64.52 65.79                5674.78  Liquid by sphere:  3654.207  (m3)
+
+ CASE NO.   39   TYPE=BB2 Inlet Pressure=136.8792 Bara                                                                             
+  MCP01ToStFer     0.0    167. 38.95625   136.9    23. 0.000 0.000 0.000    5.8  0.0006 0.00000        BB2 Wave
+                   0.0    167. 38.94198    48.0    -2. -.811 89.64 88.89   16.3  0.0183 2029.08  10.52 BB2 Wave
+                                                      ------------------               --------
+                                                       -.811 89.64 88.89                2029.08  Liquid by sphere:  1118.494  (m3)
+
+ CASE NO.   40   TYPE=BBRev2 Inlet Pressure=136.1844 Bara                                                                          
+  MCP01ToStFer     0.0    167. 38.95608   136.2    23. 0.000 0.000 0.000    5.9  0.0231 0.00000        BBRE Wave
+                   0.0    167. 38.94201    48.0    -2. 1.299 86.82 88.19   16.3  0.0088 6262.66  11.11 BBRE Dispersed Bubble
+                                                      ------------------               --------
+                                                       1.299 86.82 88.19                6262.66  Liquid by sphere:  3838.202  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   41   TYPE=Oliemanist1 Inlet Pressure=126.4661 Bara                                                                     
+  MCP01ToStFer     0.0    167. 38.95392   126.5    23. 0.000 0.000 0.000    6.3  0.0011 0.00000        OLIE Wave
+                   0.0    167. 38.94235    48.0    -1. -1.03 79.42 78.45   16.5  0.0013 144.544  10.39 OLIE Wave
+                                                      ------------------               --------
+                                                       -1.03 79.42 78.45                144.544  Liquid by sphere:    52.427  (m3)
+
+ CASE NO.   42   TYPE=HughDuk1 Inlet Pressure=133.2321 Bara                                                                        
+  MCP01ToStFer     0.0    167. 38.95539   133.2    23. 0.000 0.000 0.000    6.0  0.0250 0.00000        HUGH Wave
+                   0.0    167. 38.94230    48.0    -1. -.964 86.10 85.20   16.4  0.0004 1769.28  10.59 HUGH Wave
+                                                      ------------------               --------
+                                                       -.964 86.10 85.20                1769.28  Liquid by sphere:   905.738  (m3)
+
+ CASE NO.   43   TYPE=EatonOli1 Inlet Pressure=123.5448 Bara                                                                       
+  MCP01ToStFer     0.0    167. 38.95333   123.5    23. 0.000 0.000 0.000    6.5  0.0083 0.00000        EATO Wave
+                   0.0    167. 38.94247    48.0     0. -.892 76.38 75.55   16.5  0.0063 674.846  10.49 EATO Wave
+                                                      ------------------               --------
+                                                       -.892 76.38 75.55                674.846  Liquid by sphere:   363.169  (m3)
+
+
+                                       ******** END OF JOB ******** 
+
+
+
+ Run Totals :
+
+              Cases ...........      43
+                CPin  .........      43
+              Iterations ......     320
+              Segments ........   24546
+              FCPG calls ......   53823
+              MBAL calls ......   84440
+              FLASH calls .....  341990
+              end job                                                     
+    CPU Seconds   240.520 
+
+

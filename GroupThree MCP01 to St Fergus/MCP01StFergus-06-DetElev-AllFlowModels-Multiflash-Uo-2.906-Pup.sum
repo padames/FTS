@@ -1,0 +1,554 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 15/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 14:56:25  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupThree MCP01 to St Fergus\MCP01StFergus-06-DetElev-AllFlowModels-Multiflash-Uo-2.906-Pup.pst
+
+ Job       : 'Friggs to St Fergus Total flow model comparisons'                                                                                                                                                                                                              
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=BBO                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1538.886;
+           T= 41.24677, 41.24677, dt= -.128855-5; H= -78.29747, -78.29747, dh= .1517734-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1538.886;
+           T= 41.24677, 41.24677, dt= -.127241-5; H= -78.29747, -78.29747, dh= .1530498-5
+          
+
+                   0.0    176. 40.94298    80.3     3. -.517 51.58 51.09    9.7  0.0224 2104.52  10.58 B/B SEGREGATED
+                                                      ------------------               --------
+                                                       -.517 51.58 51.09                2104.52  Liquid by sphere:  1861.219  (m3)
+
+ CASE NO.    2   TYPE=BBOTD                                                                                                        
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1537.99;
+           T= 41.233, 41.233, dt= -.134347-5; H= -78.27703, -78.27703, dh= .147382-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1537.99;
+           T= 41.233, 41.233, dt= -.132722-5; H= -78.27703, -78.27703, dh= .1486669-5
+          
+
+                   0.0    176. 40.94297    80.2     3. -.623 51.84 51.23    9.7  0.0224 2074.80  10.57 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.623 51.84 51.23                2074.80  Liquid by sphere:  1831.235  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=BBR                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 84.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.027  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    4   TYPE=BBRTD                                                                                                        
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 84.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.049  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    5   TYPE=BJA                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94404    51.2    -1. -1.07 81.24 80.23   16.1  0.0017 163.238  10.30 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -1.07 81.24 80.23                163.238  Liquid by sphere:    68.954  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    6   TYPE=DKAGAD                                                                                                       
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.95067    11.4   -10. 1.117 118.5 120.0   78.7  0.0001 50.7327  11.50 T/D ANNULAR DISP
+                                                      ------------------               --------
+                                                       1.117 118.5 120.0                50.7327  Liquid by sphere:     0.221  (m3)
+
+ CASE NO.    7   TYPE=DKAGAF                                                                                                       
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.95088    10.5   -10. 1.114 119.3 120.9   85.3  0.0040 590.018  11.62 T/D ANNULAR DISP
+                                                      ------------------               --------
+                                                       1.114 119.3 120.9                590.018  Liquid by sphere:    72.878  (m3)
+
+ CASE NO.    8   TYPE=LOCKMAR                                                                                                      
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94348    57.3     0. -1.06 75.12 74.11   14.2  0.0005 57.0620  10.21 NONE
+                                                      ------------------               --------
+                                                       -1.06 75.12 74.11                57.0620  Liquid by sphere:     1.265  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    9   TYPE=LOCKMARTD                                                                                                    
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94348    57.3     0. -1.06 75.12 74.11   14.2  0.0005 57.0620  10.21 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -1.06 75.12 74.11                57.0620  Liquid by sphere:     1.265  (m3)
+
+ CASE NO.   10   TYPE=MB                                                                                                           
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94504    42.5    -2. -1.19 89.99 88.88   19.7  0.0003 48.9793  10.43 M & B MIST
+                                                      ------------------               --------
+                                                       -1.19 89.99 88.88                48.9793  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.   11   TYPE=NOSLIP                                                                                                       
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94348    57.3     0. -1.06 75.12 74.11   14.2  0.0005 57.0620  10.21 GAS
+                                                      ------------------               --------
+                                                       -1.06 75.12 74.11                57.0620  Liquid by sphere:     1.265  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   12   TYPE=OLIEMANS                                                                                                     
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94370    54.6     0. -.899 77.61 76.77   14.9  0.0060 634.596  10.31 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.899 77.61 76.77                634.596  Liquid by sphere:   385.374  (m3)
+
+ CASE NO.   13   TYPE=XIAO                                                                                                         
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94396    51.8    -1. -1.10 80.67 79.63   15.9  0.0017 166.535  10.28 XIAO STRAT WAVY
+                                                      ------------------               --------
+                                                       -1.10 80.67 79.63                166.535  Liquid by sphere:    71.385  (m3)
+
+ CASE NO.   14   TYPE=TU2P                                                                                                         
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94323    60.8     1. -1.03 71.60 70.62   13.3  0.0007 75.9912  10.19 ZHANG annular
+                                                      ------------------               --------
+                                                       -1.03 71.60 70.62                75.9912  Liquid by sphere:    14.747  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   15   TYPE=TBB                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 84.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.014  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   16   TYPE=TDUK                                                                                                         
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94816    23.7    -6. 1.142 106.3 107.7   36.8  0.0022 413.770  11.07 DUKLER 2-PHASE
+                                                      ------------------               --------
+                                                       1.142 106.3 107.7                413.770  Liquid by sphere:   108.143  (m3)
+
+ CASE NO.   17   TYPE=TMB                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94490    44.6    -2. -1.18 87.95 86.84   18.8  0.0004 50.1318  10.43 MB MIST
+                                                      ------------------               --------
+                                                       -1.18 87.95 86.84                50.1318  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   18   TYPE=olga_3p_72                                                                                                   
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94372    54.2    -1. -1.08 78.21 77.18   15.1  0.0016 189.752  10.25 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.08 78.21 77.18                189.752  Liquid by sphere:    88.291  (m3)
+
+                Holdup totals:    Liquid= 189.75 m3    Oil= 189.75 m3    Water= 0 m3    Gas= .10486e8 sm3
+
+ CASE NO.   19   TYPE=olga_2p_72                                                                                                   
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94372    54.2    -1. -1.08 78.21 77.18   15.1  0.0016 189.752  10.25 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.08 78.21 77.18                189.752  Liquid by sphere:    88.291  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   20   TYPE=olga_3p_627                                                                                                  
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94374    54.0    -1. -1.08 78.46 77.43   15.1  0.0018 207.842  10.26 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.08 78.46 77.43                207.842  Liquid by sphere:    99.672  (m3)
+
+                Holdup totals:    Liquid= 207.84 m3    Oil= 207.84 m3    Water= 0 m3    Gas= .10476e8 sm3
+
+ CASE NO.   21   TYPE=olga_2p_627                                                                                                  
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94374    54.0    -1. -1.08 78.46 77.43   15.1  0.0018 207.842  10.26 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.08 78.46 77.43                207.842  Liquid by sphere:    99.672  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   22   TYPE=olga_3p_532                                                                                                  
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94361    55.4     0. -1.07 76.98 75.96   14.7  0.0014 161.940  10.24 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.07 76.98 75.96                161.940  Liquid by sphere:    71.439  (m3)
+
+                Holdup totals:    Liquid= 161.94 m3    Oil= 161.94 m3    Water= 0 m3    Gas= .10535e8 sm3
+
+ CASE NO.   23   TYPE=olga_2p_532                                                                                                  
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94361    55.4     0. -1.07 76.98 75.96   14.7  0.0014 161.940  10.24 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.07 76.98 75.96                161.940  Liquid by sphere:    71.439  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   24   TYPE=olga_3p_53                                                                                                   
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94361    55.4     0. -1.07 76.98 75.96   14.7  0.0014 161.940  10.24 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.07 76.98 75.96                161.940  Liquid by sphere:    71.439  (m3)
+
+                Holdup totals:    Liquid= 161.94 m3    Oil= 161.94 m3    Water= 0 m3    Gas= .10535e8 sm3
+
+ CASE NO.   25   TYPE=olga_2p_53                                                                                                   
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94361    55.4     0. -1.07 76.98 75.96   14.7  0.0014 161.940  10.24 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.07 76.98 75.96                161.940  Liquid by sphere:    71.439  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   26   TYPE=olga_3p_50                                                                                                   
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94361    55.4     0. -1.07 76.98 75.96   14.7  0.0014 161.940  10.24 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.07 76.98 75.96                161.940  Liquid by sphere:    71.439  (m3)
+
+                Holdup totals:    Liquid= 161.94 m3    Oil= 161.94 m3    Water= 0 m3    Gas= .10535e8 sm3
+
+ CASE NO.   27   TYPE=olga_2p_50                                                                                                   
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94361    55.4     0. -1.07 76.98 75.96   14.7  0.0014 161.940  10.24 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.07 76.98 75.96                161.940  Liquid by sphere:    71.439  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   28   TYPE=BP1                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94410    49.7    -1. -1.12 82.74 81.68   16.6  0.0007 138.485  10.29 BP1 Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.12 82.74 81.68                138.485  Liquid by sphere:    49.869  (m3)
+
+ CASE NO.   29   TYPE=BP2                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94410    49.7    -1. -1.12 82.74 81.68   16.6  0.0007 138.485  10.29 BP2 Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.12 82.74 81.68                138.485  Liquid by sphere:    49.869  (m3)
+
+ CASE NO.   30   TYPE=TUFFPU3P_e-2                                                                                                 
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1378.708;
+           T= 38.788, 38.788, dt= -.137445-5; H= -74.41824, -74.41824, dh= .136002-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1378.708;
+           T= 38.788, 38.788, dt= -.136215-5; H= -74.41824, -74.41824, dh= .1369424-5
+          
+
+                   0.0    176. 40.94494    42.8    -3. -1.19 89.72 88.61   19.5  0.0004 64.7185  10.41 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -1.19 89.72 88.61                64.7185  Liquid by sphere:     6.127  (m3)
+
+                Holdup totals:    Liquid= 64.719 m3    Oil= 64.719 m3    Water= 0 m3    Gas= .10144e8 sm3
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   31   TYPE=TUFFPU3P_e0                                                                                                  
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1378.708;
+           T= 38.788, 38.788, dt= -.137445-5; H= -74.41824, -74.41824, dh= .136002-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1378.708;
+           T= 38.788, 38.788, dt= -.136215-5; H= -74.41824, -74.41824, dh= .1369424-5
+          
+
+                   0.0    176. 40.94494    42.8    -3. -1.19 89.72 88.61   19.5  0.0004 64.7185  10.41 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -1.19 89.72 88.61                64.7185  Liquid by sphere:     6.127  (m3)
+
+                Holdup totals:    Liquid= 64.719 m3    Oil= 64.719 m3    Water= 0 m3    Gas= .10144e8 sm3
+
+ CASE NO.   32   TYPE=TUFFPU2P                                                                                                     
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1378.708;
+           T= 38.788, 38.788, dt= -.137445-5; H= -74.41824, -74.41824, dh= .136002-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1378.708;
+           T= 38.788, 38.788, dt= -.136215-5; H= -74.41824, -74.41824, dh= .1369424-5
+          
+
+                   0.0    176. 40.94494    42.8    -3. -1.19 89.72 88.61   19.5  0.0004 64.7185  10.41 TUFF Stratified
+                                                      ------------------               --------
+                                                       -1.19 89.72 88.61                64.7185  Liquid by sphere:     6.127  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   33   TYPE=LEDA3P1.2e-2                                                                                                 
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94362    55.6     0. -1.08 76.82 75.80   14.7  0.0006 116.571  10.24 LEDA Strat. Wavy, Water/Oil
+                                                      ------------------               --------
+                                                       -1.08 76.82 75.80                116.571  Liquid by sphere:    39.660  (m3)
+
+                Holdup totals:    Liquid= 116.57 m3    Oil= 116.57 m3    Water= 0 m3    Gas= .10531e8 sm3
+
+ CASE NO.   34   TYPE=LEDA2P1.2                                                                                                    
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94362    55.6     0. -1.08 76.82 75.80   14.7  0.0006 116.571  10.24 LEDA Strat. Wavy
+                                                      ------------------               --------
+                                                       -1.08 76.82 75.80                116.571  Liquid by sphere:    39.660  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   35   TYPE=Xiao1                                                                                                        
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 958.6873;
+           T= 33.70155, 33.70155, dt= -.117973-5; H= -61.53008, -61.53008, dh= .1194392-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 958.6873;
+           T= 33.70155, 33.70155, dt= -.117973-5; H= -61.53008, -61.53008, dh= .1194395-5
+          
+
+                   0.0    176. 40.94446    47.1    -2. -1.14 85.38 84.31   17.6  0.0024 236.602  10.36 XIAO Stratified
+                                                      ------------------               --------
+                                                       -1.14 85.38 84.31                236.602  Liquid by sphere:   106.824  (m3)
+
+ CASE NO.   36   TYPE=Xiao2                                                                                                        
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 958.6873;
+           T= 33.70155, 33.70155, dt= -.117973-5; H= -61.53008, -61.53008, dh= .1194392-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 958.6873;
+           T= 33.70155, 33.70155, dt= -.117973-5; H= -61.53008, -61.53008, dh= .1194395-5
+          
+
+                   0.0    176. 40.94446    47.1    -2. -1.14 85.38 84.31   17.6  0.0024 236.602  10.36 XIAO Stratified
+                                                      ------------------               --------
+                                                       -1.14 85.38 84.31                236.602  Liquid by sphere:   106.824  (m3)
+
+ CASE NO.   37   TYPE=BB1                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94296    79.7     3. -.081 51.76 51.70    9.8  0.0223 2102.13  10.57 BB1 Wave
+                                                      ------------------               --------
+                                                       -.081 51.76 51.70                2102.13  Liquid by sphere:  1848.798  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   38   TYPE=BBRev1                                                                                                       
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1367.413;
+           T= 39.02956, 39.02956, dt= -.129436-5; H= -73.81222, -73.81222, dh= .1405474-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1367.413;
+           T= 39.02956, 39.02956, dt= -.129436-5; H= -73.81222, -73.81222, dh= .1405477-5
+          
+
+                   0.0    176. 40.94278    75.5     2. 4.806 51.07 55.90   10.4  0.2126 11309.2  11.83 BBRE Wave
+                                                      ------------------               --------
+                                                       4.806 51.07 55.90                11309.2  Liquid by sphere:  9746.574  (m3)
+
+ CASE NO.   39   TYPE=BB2                                                                                                          
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 101.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.489  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   40   TYPE=BBRev2                                                                                                       
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 98.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     7.081  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   41   TYPE=Oliemanist1                                                                                                  
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94466    45.2    -2. -1.17 87.28 86.19   18.4  0.0013 143.626  10.38 OLIE Wave
+                                                      ------------------               --------
+                                                       -1.17 87.28 86.19                143.626  Liquid by sphere:    50.580  (m3)
+
+ CASE NO.   42   TYPE=HughDuk1                                                                                                     
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94923    18.0    -8. -1.13 114.3 113.4   49.1  0.0001 1257.91  11.38 HUGH Annular Mist
+                                                      ------------------               --------
+                                                       -1.13 114.3 113.4                1257.91  Liquid by sphere:   228.287  (m3)
+
+ CASE NO.   43   TYPE=EatonOli1                                                                                                    
+  MCP01ToStFer     0.0    176. 40.96106   131.4    33. 0.000 0.000 0.000    6.8  0.0208 0.00000        BBRE Wave
+                   0.0    176. 40.94373    54.3     0. -.886 77.92 77.09   15.0  0.0067 680.387  10.32 EATO Wave
+                                                      ------------------               --------
+                                                       -.886 77.92 77.09                680.387  Liquid by sphere:   414.404  (m3)
+
+
+                                       ******** END OF JOB ******** 
+
+
+
+ Run Totals :
+
+              Cases ...........      43
+                 (of which ....     5 were aborted)
+                CPout .........      43
+              Iterations ......      43
+              Segments ........   30522
+              FCPG calls ......   61268
+              MBAL calls ......   92191
+              FLASH calls .....  344242
+              end job                                                     
+    CPU Seconds   288.000 
+
+

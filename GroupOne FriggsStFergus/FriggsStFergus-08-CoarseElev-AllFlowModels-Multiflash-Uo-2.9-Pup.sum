@@ -1,0 +1,610 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 13/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 15:34:43  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupOne FriggsStFergus\FriggsStFergus-08-CoarseElev-AllFlowModels-Multiflash-Uo-2.9-Pup.pst
+
+ Job       : 'SPE Back to Basics presentation Sep 11, 2012'                                                                                                                                                                                                                  
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=BBO                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0001 0.00000        B/B SEGREGATED
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1520.435;
+           T= 42.00152, 42.00152, dt= -.126342-5; H= -77.05633, -77.05634, dh= .1503998-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1520.435;
+           T= 42.00152, 42.00152, dt= -.126342-5; H= -77.05633, -77.05634, dh= .1504002-5
+          
+
+                   0.0    144. 33.60516    89.5     5. .7360 58.83 59.58    7.1  0.0280 4626.96   5.32 B/B SEGREGATED
+                                                      ------------------               --------
+                                                       .7360 58.83 59.58                4626.96  Liquid by sphere:  4285.716  (m3)
+
+ CASE NO.    2   TYPE=BBOTD                                                                                                        
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0001 0.00000        T/D STRAT. WAVY
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1543.831;
+           T= 42.07141, 42.07141, dt= -.161744-5; H= -77.81817, -77.81817, dh= .124384-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1543.831;
+           T= 42.07141, 42.07141, dt= -.161743-5; H= -77.81817, -77.81817, dh= .1243844-5
+          
+
+                   0.0    144. 33.60527    91.3     5. -.545 58.32 57.78    6.9  0.0283 4611.67   5.35 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -.545 58.32 57.78                4611.67  Liquid by sphere:  4329.421  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=BBR                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0001 0.00000        B/B SEGREGATED
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 19.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.513  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    4   TYPE=BBRTD                                                                                                        
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0001 0.00000        T/D STRAT. WAVY
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 19.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.344  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    5   TYPE=BJA                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0006 0.00000        T/D STRAT. WAVY
+                   0.0    144. 33.60681    41.4     1. -1.43 109.1 107.7   17.0  0.0016 333.775   5.23 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -1.43 109.1 107.7                333.775  Liquid by sphere:   105.837  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    6   TYPE=DKAGAD                                                                                                       
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        T/D STRAT. WAVY
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 23.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     0.000  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    7   TYPE=DKAGAF                                                                                                       
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0077 0.00000        T/D STRAT. WAVY
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 23.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     0.794  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.    8   TYPE=LOCKMAR                                                                                                      
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        NONE
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1560.01;
+           T= 41.36414, 41.36414, dt= -.104891-5; H= -78.94028, -78.94028, dh= .1724333-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1560.01;
+           T= 41.36414, 41.36414, dt= -.104891-5; H= -78.94028, -78.94028, dh= .1724336-5
+          
+
+                   0.0    144. 33.60547    55.3     3. -1.35 95.15 93.84   12.3  0.0004 119.330   5.09 NONE
+                                                      ------------------               --------
+                                                       -1.35 95.15 93.84                119.330  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    9   TYPE=LOCKMARTD                                                                                                    
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        T/D STRAT. WAVY
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1560.01;
+           T= 41.36414, 41.36414, dt= -.104891-5; H= -78.94028, -78.94028, dh= .1724333-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1560.01;
+           T= 41.36414, 41.36414, dt= -.104891-5; H= -78.94028, -78.94028, dh= .1724336-5
+          
+
+                   0.0    144. 33.60547    55.3     3. -1.35 95.15 93.84   12.3  0.0004 119.330   5.09 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -1.35 95.15 93.84                119.330  Liquid by sphere:     0.000  (m3)
+
+ CASE NO.   10   TYPE=MB                                                                                                           
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0000 0.00000        M & B MIST
+                   0.0    144. 33.60762    34.2     0. -1.51 116.3 114.9   20.9  0.0003 138.668   5.32 M & B MIST
+                                                      ------------------               --------
+                                                       -1.51 116.3 114.9                138.668  Liquid by sphere:     5.940  (m3)
+
+ CASE NO.   11   TYPE=NOSLIP                                                                                                       
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        GAS
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1560.01;
+           T= 41.36414, 41.36414, dt= -.104891-5; H= -78.94028, -78.94028, dh= .1724333-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1560.01;
+           T= 41.36414, 41.36414, dt= -.104891-5; H= -78.94028, -78.94028, dh= .1724336-5
+          
+
+                   0.0    144. 33.60547    55.3     3. -1.35 95.15 93.84   12.3  0.0004 119.330   5.09 GAS
+                                                      ------------------               --------
+                                                       -1.35 95.15 93.84                119.330  Liquid by sphere:     0.000  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   12   TYPE=OLIEMANS                                                                                                     
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0077 0.00000        T/D STRAT. WAVY
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1542.312;
+           T= 41.2213, 41.2213, dt= -.112841-5; H= -78.43741, -78.43741, dh= .1648138-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1542.312;
+           T= 41.2213, 41.2213, dt= -.112841-5; H= -78.43741, -78.43741, dh= .1648141-5
+          
+
+                   0.0    144. 33.60582    51.1     2. -1.16 99.15 98.03   13.5  0.0059 1404.50   5.16 T/D STRAT. WAVY
+                                                      ------------------               --------
+                                                       -1.16 99.15 98.03                1404.50  Liquid by sphere:   752.106  (m3)
+
+ CASE NO.   13   TYPE=XIAO                                                                                                         
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0008 0.00000        XIAO STRAT WAVY
+                   0.0    144. 33.60701    39.5     1. .5910 108.9 109.6   17.9  0.0014 359.541   5.26 XIAO STRAT WAVY
+                                                      ------------------               --------
+                                                       .5910 108.9 109.6                359.541  Liquid by sphere:   110.511  (m3)
+
+ CASE NO.   14   TYPE=TU2P                                                                                                         
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0007 0.00000        ZHANG stratified
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1579.623;
+           T= 41.51099, 41.51099, dt= -.135314-5; H= -79.50095, -79.50095, dh= .1496541-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1579.623;
+           T= 41.51099, 41.51099, dt= -.135313-5; H= -79.50095, -79.50095, dh= .1496544-5
+          
+
+                   0.0    144. 33.60515    59.9     3. -1.30 90.44 89.17   11.2  0.0007 164.434   5.06 ZHANG stratified
+                                                      ------------------               --------
+                                                       -1.30 90.44 89.17                164.434  Liquid by sphere:    29.919  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   15   TYPE=TBB                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0000 0.00000        BB SEGREGATED
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 19.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     1.521  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   16   TYPE=TDUK                                                                                                         
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0054 0.00000        DUKLER 2-PHASE
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 24.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     0.562  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   17   TYPE=TMB                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0000 0.00000        MB MIST
+                   0.0    144. 33.60728    37.7     1. -1.49 112.8 111.4   18.8  0.0003 138.765   5.28 MB MIST
+                                                      ------------------               --------
+                                                       -1.49 112.8 111.4                138.765  Liquid by sphere:     6.551  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   18   TYPE=olga_3p_72                                                                                                   
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60602    48.7     2. -.708 101.1 100.4   14.2  0.0017 480.279   5.15 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.708 101.1 100.4                480.279  Liquid by sphere:   199.347  (m3)
+
+                Holdup totals:    Liquid= 480.28 m3    Oil= 480.28 m3    Water= 0 m3    Gas= .24626e8 sm3
+
+ CASE NO.   19   TYPE=olga_2p_72                                                                                                   
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60602    48.7     2. -.708 101.1 100.4   14.2  0.0017 480.279   5.15 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.708 101.1 100.4                480.279  Liquid by sphere:   199.347  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   20   TYPE=olga_3p_627                                                                                                  
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60603    48.6     2. -.706 101.1 100.5   14.2  0.0019 511.767   5.15 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.706 101.1 100.5                511.767  Liquid by sphere:   216.944  (m3)
+
+                Holdup totals:    Liquid= 511.77 m3    Oil= 511.77 m3    Water= 0 m3    Gas= .24621e8 sm3
+
+ CASE NO.   21   TYPE=olga_2p_627                                                                                                  
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0010 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60603    48.6     2. -.706 101.1 100.5   14.2  0.0019 511.767   5.15 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.706 101.1 100.5                511.767  Liquid by sphere:   216.944  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   22   TYPE=olga_3p_532                                                                                                  
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0009 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60594    49.6     2. -.875 100.3 99.50   13.9  0.0015 410.514   5.14 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.875 100.3 99.50                410.514  Liquid by sphere:   164.087  (m3)
+
+                Holdup totals:    Liquid= 410.51 m3    Oil= 410.51 m3    Water= 0 m3    Gas= .24691e8 sm3
+
+ CASE NO.   23   TYPE=olga_2p_532                                                                                                  
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0009 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60594    49.6     2. -.875 100.3 99.50   13.9  0.0015 410.514   5.14 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.875 100.3 99.50                410.514  Liquid by sphere:   164.087  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   24   TYPE=olga_3p_53                                                                                                   
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0009 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60594    49.6     2. -.875 100.3 99.50   13.9  0.0015 410.514   5.14 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.875 100.3 99.50                410.514  Liquid by sphere:   164.087  (m3)
+
+                Holdup totals:    Liquid= 410.51 m3    Oil= 410.51 m3    Water= 0 m3    Gas= .24691e8 sm3
+
+ CASE NO.   25   TYPE=olga_2p_53                                                                                                   
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0009 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60594    49.6     2. -.875 100.3 99.50   13.9  0.0015 410.514   5.14 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.875 100.3 99.50                410.514  Liquid by sphere:   164.087  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   26   TYPE=olga_3p_50                                                                                                   
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0009 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60594    49.6     2. -.875 100.3 99.50   13.9  0.0015 410.514   5.14 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.875 100.3 99.50                410.514  Liquid by sphere:   164.087  (m3)
+
+                Holdup totals:    Liquid= 410.51 m3    Oil= 410.51 m3    Water= 0 m3    Gas= .24691e8 sm3
+
+ CASE NO.   27   TYPE=olga_2p_50                                                                                                   
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0009 0.00000        OLGA Strat. Wavy
+                   0.0    144. 33.60594    49.6     2. -.875 100.3 99.50   13.9  0.0015 410.514   5.14 OLGA Strat. Wavy
+                                                      ------------------               --------
+                                                       -.875 100.3 99.50                410.514  Liquid by sphere:   164.087  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   28   TYPE=BP1                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0008 0.00000        BP1 Strat. Wavy
+                   0.0    144. 33.60636    44.9     1. -.354 104.5 104.2   15.5  0.0008 361.887   5.18 BP1 Strat. Wavy
+                                                      ------------------               --------
+                                                       -.354 104.5 104.2                361.887  Liquid by sphere:   121.820  (m3)
+
+ CASE NO.   29   TYPE=BP2                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0008 0.00000        BP2 Strat. Wavy
+                   0.0    144. 33.60636    44.9     1. -.354 104.5 104.2   15.5  0.0008 361.887   5.18 BP2 Strat. Wavy
+                                                      ------------------               --------
+                                                       -.354 104.5 104.2                361.887  Liquid by sphere:   121.820  (m3)
+
+ CASE NO.   30   TYPE=TUFFPU3P_e-2                                                                                                 
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        TUFF Stratified, Water/Oil
+                   0.0    144. 33.60786    32.3     0. -.490 117.2 116.8   22.2  0.0003 149.347   5.35 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -.490 117.2 116.8                149.347  Liquid by sphere:    12.142  (m3)
+
+                Holdup totals:    Liquid= 149.35 m3    Oil= 149.35 m3    Water= 0 m3    Gas= .23831e8 sm3
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   31   TYPE=TUFFPU3P_e0                                                                                                  
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        TUFF Stratified, Water/Oil
+                   0.0    144. 33.60786    32.3     0. -.490 117.2 116.8   22.2  0.0003 149.347   5.35 TUFF Stratified, Water/Oil
+                                                      ------------------               --------
+                                                       -.490 117.2 116.8                149.347  Liquid by sphere:    12.142  (m3)
+
+                Holdup totals:    Liquid= 149.35 m3    Oil= 149.35 m3    Water= 0 m3    Gas= .23831e8 sm3
+
+ CASE NO.   32   TYPE=TUFFPU2P                                                                                                     
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        TUFF Stratified
+                   0.0    144. 33.60786    32.3     0. -.490 117.2 116.8   22.2  0.0003 149.347   5.35 TUFF Stratified
+                                                      ------------------               --------
+                                                       -.490 117.2 116.8                149.347  Liquid by sphere:    12.142  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   33   TYPE=LEDA3P1.2e-2                                                                                                 
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0008 0.00000        LEDA Strat. Wavy, Water/Oil
+                   0.0    144. 33.60610    48.1     2. .0078 100.9 101.0   14.4  0.0006 373.341   5.16 LEDA Strat. Wavy, Water/Oil
+                                                      ------------------               --------
+                                                       .0078 100.9 101.0                373.341  Liquid by sphere:   134.305  (m3)
+
+                Holdup totals:    Liquid= 373.34 m3    Oil= 373.34 m3    Water= 0 m3    Gas= .24576e8 sm3
+
+ CASE NO.   34   TYPE=LEDA2P1.2                                                                                                    
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0008 0.00000        LEDA Strat. Wavy
+                   0.0    144. 33.60610    48.1     2. .0078 100.9 101.0   14.4  0.0006 373.341   5.16 LEDA Strat. Wavy
+                                                      ------------------               --------
+                                                       .0078 100.9 101.0                373.341  Liquid by sphere:   134.305  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   35   TYPE=Xiao1                                                                                                        
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0011 0.00000        XIAO Stratified
+                   0.0    144. 33.60755    34.8     0. -1.53 115.7 114.3   20.5  0.0020 480.698   5.32 XIAO Stratified
+                                                      ------------------               --------
+                                                       -1.53 115.7 114.3                480.698  Liquid by sphere:   148.873  (m3)
+
+ CASE NO.   36   TYPE=Xiao2                                                                                                        
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0011 0.00000        XIAO Stratified
+                   0.0    144. 33.60755    34.8     0. -1.53 115.7 114.3   20.5  0.0020 480.698   5.32 XIAO Stratified
+                                                      ------------------               --------
+                                                       -1.53 115.7 114.3                480.698  Liquid by sphere:   148.873  (m3)
+
+ CASE NO.   37   TYPE=BB1                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        BB1 Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1514.895;
+           T= 41.97739, 41.97739, dt= -.112288-5; H= -76.88079, -76.88079, dh= .1609826-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1514.895;
+           T= 41.97739, 41.97739, dt= -.112288-5; H= -76.88079, -76.88079, dh= .1609829-5
+          
+
+                   0.0    144. 33.60513    89.0     5. 1.089 59.00 60.10    7.2  0.0279 4624.34   5.31 BB1 Wave
+                                                      ------------------               --------
+                                                       1.089 59.00 60.10                4624.34  Liquid by sphere:  4265.950  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   38   TYPE=BBRev1                                                                                                       
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0218 0.00000        BBRE Wave
+                   0.0    144. 33.60472    83.5     4. 5.663 59.92 65.60    7.7  0.2309 21582.4   5.81 BBRE Wave
+                                                      ------------------               --------
+                                                       5.663 59.92 65.60                21582.4  Liquid by sphere: 19350.840  (m3)
+
+ CASE NO.   39   TYPE=BB2                                                                                                          
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0005 0.00000        BB2 Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1736.321;
+           T= 41.73347, 41.73347, dt= -.177909-5; H= -84.53944, -84.53944, dh= .1275727-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1736.321;
+           T= 41.73347, 41.73347, dt= -.177909-5; H= -84.53944, -84.53944, dh= .1275732-5
+          
+
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 23.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     2.725  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   40   TYPE=BBRev2                                                                                                       
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0218 0.00000        BBRE Wave
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 22.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:    11.621  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   41   TYPE=Oliemanist1                                                                                                  
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0008 0.00000        OLIE Wave
+                   0.0    144. 33.60730    36.7     0. -1.50 113.8 112.4   19.3  0.0011 298.312   5.28 OLIE Wave
+                                                      ------------------               --------
+                                                       -1.50 113.8 112.4                298.312  Liquid by sphere:    78.109  (m3)
+
+ CASE NO.   42   TYPE=HughDuk1                                                                                                     
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0287 0.00000        HUGH Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1670.389;
+           T= 40.98206, 40.98206, dt= -.155938-5; H= -82.99834, -82.99834, dh= .1419261-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1670.389;
+           T= 40.98206, 40.98206, dt= -.155937-5; H= -82.99834, -82.99834, dh= .1419265-5
+          
+
+
+ Warning    12102    :  Calculated pressure is too low (0 Bara) in section 24.
+
+            *******  case terminated  ******** 
+                                                      ------------------               --------
+                                                       0.000 0.000 0.000                0.00000  Liquid by sphere:     2.668  (m3)
+
+ Warning 29003145  from PSIM :  Insufficient pressure to sustain fluid flow : OP= 0.
+
+ CASE NO.   43   TYPE=EatonOli1                                                                                                    
+  FriggsToStFe     0.0    144. 33.62136   149.1    28. 0.000 0.000 0.000    4.8  0.0083 0.00000        EATO Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1540.535;
+           T= 41.2075, 41.2075, dt= -.111869-5; H= -78.38622, -78.38622, dh= .1654502-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1540.535;
+           T= 41.2075, 41.2075, dt= -.111869-5; H= -78.38622, -78.38622, dh= .1654505-5
+          
+
+                   0.0    144. 33.60586    50.6     2. -1.15 99.62 98.51   13.6  0.0067 1490.20   5.17 EATO Wave
+                                                      ------------------               --------
+                                                       -1.15 99.62 98.51                1490.20  Liquid by sphere:   796.848  (m3)
+
+
+                                       ******** END OF JOB ******** 
+
+
+
+ Run Totals :
+
+              Cases ...........      43
+                 (of which ....     9 were aborted)
+                CPout .........      43
+              Iterations ......      43
+              Segments ........    6684
+              FCPG calls ......   14001
+              MBAL calls ......   21504
+              FLASH calls .....   85718
+              end job                                                     
+    CPU Seconds    61.290 
+
+

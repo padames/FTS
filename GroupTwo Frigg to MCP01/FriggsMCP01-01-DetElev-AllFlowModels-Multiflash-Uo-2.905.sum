@@ -1,0 +1,828 @@
+
+ Warning 47001005  from PVTSERVICES : 
+          Fluid characterization calculation warning.
+           The BIPs that are not defined by the user are populated with the BIPs calculated by Multiflash. (ErrorHandler:75)
+          
+
+
+ ************  PIPESIM  ************                                                                      Date : 14/03/14  
+ *   (Release 2013.08  01/08/13)   *                                                                      Time : 16:06:24  
+ *    MULTIPHASE FLOW SIMULATOR    *                       Job Output Summary
+ *          pipesim-bld1:213       *                       Job Output Summary                                    PC-32/Intel
+ *          Schlumberger           *                       Job Output Summary
+ *            Houston              *
+ ***********************************
+
+ Project   : PIPESIM Project                                                                                                                 
+ User      : P Adames                                                                                                                        
+ Data File : D:\Documents\Training\PIPESIM\Frigg-St.Fergus\Runs\GroupTwo Frigg to MCP01\FriggsMCP01-01-DetElev-AllFlowModels-Multiflash-Uo-2.905.pst
+
+ Job       : 'Friggs to St Fergus Total flow model comparisons'                                                                                                                                                                                                              
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    1   TYPE=BBO Inlet Pressure=139.6604 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45006   139.7    28. 0.000 0.000 0.000    5.1  0.0225 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1908.261;
+           T= 44.71561, 44.71561, dt= -.141002-5; H= -87.33331, -87.33331, dh= .1649829-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1908.261;
+           T= 44.71561, 44.71561, dt= -.139543-5; H= -87.33331, -87.33331, dh= .1662037-5
+          
+
+                   0.0    144. 33.43785   109.4     4. 1.857 28.39 30.25    5.6  0.2671 2429.26  11.14 BBRE Wave
+                                                      ------------------               --------
+                                                       1.857 28.39 30.25                2429.26  Liquid by sphere:  2366.399  (m3)
+
+ CASE NO.    2   TYPE=BBOTD Inlet Pressure=139.799 Bara                                                                            
+  FriggsToMCP0     0.0    144. 33.45008   139.8    28. 0.000 0.000 0.000    5.1  0.0225 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1910.319;
+           T= 44.7189, 44.7189, dt= -.14719-5; H= -87.3905, -87.3905, dh= .1599591-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1910.319;
+           T= 44.7189, 44.7189, dt= -.145725-5; H= -87.3905, -87.3905, dh= .1611847-5
+          
+
+                   0.0    144. 33.43785   109.4     4. 1.725 28.66 30.39    5.6  0.2671 2362.20  11.13 BBRE Wave
+                                                      ------------------               --------
+                                                       1.725 28.66 30.39                2362.20  Liquid by sphere:  2299.308  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    3   TYPE=BBR Inlet Pressure=159.2187 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45454   159.2    28. 0.000 0.000 0.000    4.4  0.0205 0.00000        BBRE Wave
+                   0.0    144. 33.43761   109.4     3. 1.724 48.08 49.82    5.5  0.2687 1977.94  10.98 BBRE Wave
+                                                      ------------------               --------
+                                                       1.724 48.08 49.82                1977.94  Liquid by sphere:  1918.317  (m3)
+
+ CASE NO.    4   TYPE=BBRTD Inlet Pressure=159.5275 Bara                                                                           
+  FriggsToMCP0     0.0    144. 33.45462   159.5    28. 0.000 0.000 0.000    4.4  0.0204 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1717.962;
+           T= 40.9247, 40.9247, dt= -.10123-5; H= -84.61041, -84.61041, dh= .1909286-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1717.962;
+           T= 40.9247, 40.9247, dt= -.101229-5; H= -84.61041, -84.61041, dh= .1909289-5
+          
+
+                   0.0    144. 33.43760   109.4     3. 1.596 48.52 50.13    5.5  0.2687 1908.50  10.97 BBRE Wave
+                                                      ------------------               --------
+                                                       1.596 48.52 50.13                1908.50  Liquid by sphere:  1848.937  (m3)
+
+ CASE NO.    5   TYPE=BJA Inlet Pressure=150.6781 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45246   150.7    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1787.58;
+           T= 41.97786, 41.97786, dt= -.176853-5; H= -85.96521, -85.96521, dh= .1318929-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1787.58;
+           T= 41.97786, 41.97786, dt= -.176853-5; H= -85.96521, -85.96521, dh= .1318934-5
+          
+
+                   0.0    144. 33.43772   109.4     3. 1.611 39.70 41.32    5.5  0.2679 181.036  10.80 BBRE Wave
+                                                      ------------------               --------
+                                                       1.611 39.70 41.32                181.036  Liquid by sphere:   118.006  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    6   TYPE=DKAGAD Inlet Pressure=159.3343 Bara                                                                          
+  FriggsToMCP0     0.0    144. 33.45457   159.3    28. 0.000 0.000 0.000    4.4  0.0205 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1907.217;
+           T= 41.92038, 41.92039, dt= -.134835-5; H= -89.65174, -89.65174, dh= .1766971-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1907.217;
+           T= 41.92038, 41.92039, dt= -.134834-5; H= -89.65174, -89.65174, dh= .1766975-5
+          
+
+                   0.0    144. 33.43761   109.4     3. 5.566 44.33 49.90    5.5  0.2687 80.1309  10.74 BBRE Wave
+                                                      ------------------               --------
+                                                       5.566 44.33 49.90                80.1309  Liquid by sphere:    19.176  (m3)
+
+ CASE NO.    7   TYPE=DKAGAF Inlet Pressure=159.487 Bara                                                                           
+  FriggsToMCP0     0.0    144. 33.45461   159.5    28. 0.000 0.000 0.000    4.4  0.0204 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1907.962;
+           T= 41.91275, 41.91275, dt= -.133309-5; H= -89.68011, -89.68012, dh= .1780628-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1907.962;
+           T= 41.91275, 41.91275, dt= -.133309-5; H= -89.68011, -89.68012, dh= .1780632-5
+          
+
+                   0.0    144. 33.43761   109.4     3. 5.566 44.48 50.05    5.5  0.2687 775.878  10.83 BBRE Wave
+                                                      ------------------               --------
+                                                       5.566 44.48 50.05                775.878  Liquid by sphere:   715.512  (m3)
+
+ CASE NO.    8   TYPE=LOCKMAR Inlet Pressure=148.3941 Bara                                                                         
+  FriggsToMCP0     0.0    144. 33.45194   148.4    28. 0.000 0.000 0.000    4.8  0.0219 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1778.8;
+           T= 42.12395, 42.12396, dt= -.207789-5; H= -85.56851, -85.56851, dh= .1052897-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1778.8;
+           T= 42.12395, 42.12396, dt= -.207789-5; H= -85.56851, -85.56851, dh= .1052903-5
+          
+
+                   0.0    144. 33.43776   109.4     4. 1.599 37.39 38.99    5.5  0.2677 82.7455  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.599 37.39 38.99                82.7455  Liquid by sphere:    19.212  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.    9   TYPE=LOCKMARTD Inlet Pressure=148.3941 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45194   148.4    28. 0.000 0.000 0.000    4.8  0.0219 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1778.8;
+           T= 42.12395, 42.12396, dt= -.207789-5; H= -85.56851, -85.56851, dh= .1052897-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1778.8;
+           T= 42.12395, 42.12396, dt= -.207789-5; H= -85.56851, -85.56851, dh= .1052903-5
+          
+
+                   0.0    144. 33.43776   109.4     4. 1.599 37.39 38.99    5.5  0.2677 82.7455  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.599 37.39 38.99                82.7455  Liquid by sphere:    19.212  (m3)
+
+ CASE NO.   10   TYPE=MB Inlet Pressure=152.1556 Bara                                                                              
+  FriggsToMCP0     0.0    144. 33.45281   152.2    28. 0.000 0.000 0.000    4.6  0.0215 0.00000        BBRE Wave
+                   0.0    144. 33.43769   109.4     3. 1.591 41.16 42.76    5.5  0.2681 116.814  10.78 BBRE Wave
+                                                      ------------------               --------
+                                                       1.591 41.16 42.76                116.814  Liquid by sphere:    54.054  (m3)
+
+ CASE NO.   11   TYPE=NOSLIP Inlet Pressure=148.3941 Bara                                                                          
+  FriggsToMCP0     0.0    144. 33.45194   148.4    28. 0.000 0.000 0.000    4.8  0.0219 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1778.8;
+           T= 42.12395, 42.12396, dt= -.207789-5; H= -85.56851, -85.56851, dh= .1052897-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1778.8;
+           T= 42.12395, 42.12396, dt= -.207789-5; H= -85.56851, -85.56851, dh= .1052903-5
+          
+
+                   0.0    144. 33.43776   109.4     4. 1.599 37.39 38.99    5.5  0.2677 82.7455  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.599 37.39 38.99                82.7455  Liquid by sphere:    19.212  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   12   TYPE=OLIEMANS Inlet Pressure=149.1778 Bara                                                                        
+  FriggsToMCP0     0.0    144. 33.45212   149.2    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+                   0.0    144. 33.43774   109.4     4. 1.766 38.01 39.78    5.5  0.2678 777.814  10.89 BBRE Wave
+                                                      ------------------               --------
+                                                       1.766 38.01 39.78                777.814  Liquid by sphere:   714.971  (m3)
+
+ CASE NO.   13   TYPE=XIAO Inlet Pressure=149.7639 Bara                                                                            
+  FriggsToMCP0     0.0    144. 33.45225   149.8    28. 0.000 0.000 0.000    4.7  0.0217 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1784.017;
+           T= 42.03428, 42.03428, dt= -.185404-5; H= -85.8067, -85.8067, dh= .1244078-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1784.017;
+           T= 42.03428, 42.03428, dt= -.185404-5; H= -85.8067, -85.8067, dh= .1244083-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.585 38.83 40.42    5.5  0.2678 181.469  10.80 BBRE Wave
+                                                      ------------------               --------
+                                                       1.585 38.83 40.42                181.469  Liquid by sphere:   118.262  (m3)
+
+ CASE NO.   14   TYPE=TU2P Inlet Pressure=147.5826 Bara                                                                            
+  FriggsToMCP0     0.0    144. 33.45175   147.6    28. 0.000 0.000 0.000    4.8  0.0219 0.00000        BBRE Wave
+                   0.0    144. 33.43777   109.4     4. 1.609 36.56 38.18    5.5  0.2676 105.269  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.609 36.56 38.18                105.269  Liquid by sphere:    41.609  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   15   TYPE=TBB Inlet Pressure=158.9353 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45447   158.9    28. 0.000 0.000 0.000    4.4  0.0205 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1843.67;
+           T= 41.57577, 41.57577, dt= -.20571-5; H= -88.03545, -88.03545, dh= .1129525-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1843.67;
+           T= 41.57577, 41.57577, dt= -.205709-5; H= -88.03545, -88.03545, dh= .1129531-5
+          
+
+                   0.0    144. 33.43761   109.4     3. 1.727 47.80 49.53    5.5  0.2686 1997.00  10.99 BBRE Wave
+                                                      ------------------               --------
+                                                       1.727 47.80 49.53                1997.00  Liquid by sphere:  1937.280  (m3)
+
+ CASE NO.   16   TYPE=TDUK Inlet Pressure=158.5072 Bara                                                                            
+  FriggsToMCP0     0.0    144. 33.45436   158.5    28. 0.000 0.000 0.000    4.4  0.0206 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1902.711;
+           T= 41.95589, 41.95589, dt= -.145199-5; H= -89.48884, -89.48884, dh= .1674831-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1902.711;
+           T= 41.95589, 41.95589, dt= -.145198-5; H= -89.48884, -89.48884, dh= .1674836-5
+          
+
+                   0.0    144. 33.43762   109.4     3. 5.564 43.51 49.08    5.5  0.2686 607.605  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       5.564 43.51 49.08                607.605  Liquid by sphere:   546.856  (m3)
+
+ CASE NO.   17   TYPE=TMB Inlet Pressure=152.5976 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45291   152.6    28. 0.000 0.000 0.000    4.6  0.0214 0.00000        BBRE Wave
+                   0.0    144. 33.43768   109.4     3. 1.586 41.60 43.19    5.5  0.2682 126.838  10.78 BBRE Wave
+                                                      ------------------               --------
+                                                       1.586 41.60 43.19                126.838  Liquid by sphere:    64.157  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   18   TYPE=olga_3p_72 Inlet Pressure=148.977 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45207   149.0    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.584;
+           T= 42.0863, 42.0863, dt= -.19637-5; H= -85.6872, -85.6872, dh= .1150291-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.584;
+           T= 42.0863, 42.0863, dt= -.196369-5; H= -85.6872, -85.6872, dh= .1150296-5
+          
+
+                   0.0    144. 33.43775   109.4     4. 1.598 37.97 39.58    5.5  0.2678 268.324  10.82 BBRE Wave
+                                                      ------------------               --------
+                                                       1.598 37.97 39.58                268.324  Liquid by sphere:   205.048  (m3)
+
+                Holdup totals:    Liquid= 268.32 m3    Oil= 268.32 m3    Water= 0 m3    Gas= .15464e8 sm3
+
+ CASE NO.   19   TYPE=olga_2p_72 Inlet Pressure=148.977 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45207   149.0    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.584;
+           T= 42.0863, 42.0863, dt= -.19637-5; H= -85.6872, -85.6872, dh= .1150291-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.584;
+           T= 42.0863, 42.0863, dt= -.196369-5; H= -85.6872, -85.6872, dh= .1150296-5
+          
+
+                   0.0    144. 33.43775   109.4     4. 1.598 37.97 39.58    5.5  0.2678 268.324  10.82 BBRE Wave
+                                                      ------------------               --------
+                                                       1.598 37.97 39.58                268.324  Liquid by sphere:   205.048  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   20   TYPE=olga_3p_627 Inlet Pressure=148.9803 Bara                                                                     
+  FriggsToMCP0     0.0    144. 33.45207   149.0    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.569;
+           T= 42.08666, 42.08666, dt= -.19648-5; H= -85.68641, -85.68641, dh= .1149359-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.569;
+           T= 42.08666, 42.08666, dt= -.196479-5; H= -85.68641, -85.68641, dh= .1149364-5
+          
+
+                   0.0    144. 33.43775   109.4     4. 1.599 37.97 39.58    5.5  0.2678 281.364  10.83 BBRE Wave
+                                                      ------------------               --------
+                                                       1.599 37.97 39.58                281.364  Liquid by sphere:   218.097  (m3)
+
+                Holdup totals:    Liquid= 281.36 m3    Oil= 281.36 m3    Water= 0 m3    Gas= .15461e8 sm3
+
+ CASE NO.   21   TYPE=olga_2p_627 Inlet Pressure=148.9803 Bara                                                                     
+  FriggsToMCP0     0.0    144. 33.45207   149.0    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.569;
+           T= 42.08666, 42.08666, dt= -.19648-5; H= -85.68641, -85.68641, dh= .1149359-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.569;
+           T= 42.08666, 42.08666, dt= -.196479-5; H= -85.68641, -85.68641, dh= .1149364-5
+          
+
+                   0.0    144. 33.43775   109.4     4. 1.599 37.97 39.58    5.5  0.2678 281.364  10.83 BBRE Wave
+                                                      ------------------               --------
+                                                       1.599 37.97 39.58                281.364  Liquid by sphere:   218.097  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   22   TYPE=olga_3p_532 Inlet Pressure=148.882 Bara                                                                      
+  FriggsToMCP0     0.0    144. 33.45205   148.9    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154459-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154464-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.595 37.95 39.55    5.5  0.2677 234.375  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.595 37.95 39.55                234.375  Liquid by sphere:   171.058  (m3)
+
+                Holdup totals:    Liquid= 234.37 m3    Oil= 234.37 m3    Water= 0 m3    Gas= .15462e8 sm3
+
+ CASE NO.   23   TYPE=olga_2p_532 Inlet Pressure=148.882 Bara                                                                      
+  FriggsToMCP0     0.0    144. 33.45205   148.9    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154459-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154464-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.595 37.95 39.55    5.5  0.2677 234.375  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.595 37.95 39.55                234.375  Liquid by sphere:   171.058  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   24   TYPE=olga_3p_53 Inlet Pressure=148.882 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45205   148.9    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154459-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154464-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.595 37.95 39.55    5.5  0.2677 234.375  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.595 37.95 39.55                234.375  Liquid by sphere:   171.058  (m3)
+
+                Holdup totals:    Liquid= 234.37 m3    Oil= 234.37 m3    Water= 0 m3    Gas= .15462e8 sm3
+
+ CASE NO.   25   TYPE=olga_2p_53 Inlet Pressure=148.882 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45205   148.9    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154459-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154464-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.595 37.95 39.55    5.5  0.2677 234.375  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.595 37.95 39.55                234.375  Liquid by sphere:   171.058  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   26   TYPE=olga_3p_50 Inlet Pressure=148.882 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45205   148.9    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154459-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154465-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.595 37.95 39.55    5.5  0.2677 234.375  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.595 37.95 39.55                234.375  Liquid by sphere:   171.058  (m3)
+
+                Holdup totals:    Liquid= 234.37 m3    Oil= 234.37 m3    Water= 0 m3    Gas= .15462e8 sm3
+
+ CASE NO.   27   TYPE=olga_2p_50 Inlet Pressure=148.882 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45205   148.9    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154459-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1780.718;
+           T= 42.08308, 42.08308, dt= -.195796-5; H= -85.66263, -85.66263, dh= .1154465-5
+          
+
+                   0.0    144. 33.43773   109.3     4. 1.595 37.95 39.55    5.5  0.2677 234.375  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.595 37.95 39.55                234.375  Liquid by sphere:   171.058  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   28   TYPE=BP1 Inlet Pressure=149.0025 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45208   149.0    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1764.238;
+           T= 42.12362, 42.12363, dt= -.129896-5; H= -85.10905, -85.10905, dh= .1685202-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1764.238;
+           T= 42.12362, 42.12363, dt= -.129896-5; H= -85.10905, -85.10905, dh= .1685205-5
+          
+
+                   0.0    144. 33.43774   109.4     4. 1.738 37.86 39.60    5.5  0.2678 239.809  10.82 BBRE Wave
+                                                      ------------------               --------
+                                                       1.738 37.86 39.60                239.809  Liquid by sphere:   176.534  (m3)
+
+ CASE NO.   29   TYPE=BP2 Inlet Pressure=149.0025 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45208   149.0    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1764.238;
+           T= 42.12362, 42.12363, dt= -.129896-5; H= -85.10905, -85.10905, dh= .1685202-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1764.238;
+           T= 42.12362, 42.12363, dt= -.129896-5; H= -85.10905, -85.10905, dh= .1685205-5
+          
+
+                   0.0    144. 33.43774   109.4     4. 1.738 37.86 39.60    5.5  0.2678 239.809  10.82 BBRE Wave
+                                                      ------------------               --------
+                                                       1.738 37.86 39.60                239.809  Liquid by sphere:   176.534  (m3)
+
+ CASE NO.   30   TYPE=TUFFPU3P_e-2 Inlet Pressure=150.6382 Bara                                                                    
+  FriggsToMCP0     0.0    144. 33.45245   150.6    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+                   0.0    144. 33.43771   109.4     3. 1.621 39.65 41.28    5.5  0.2679 159.188  10.80 BBRE Wave
+                                                      ------------------               --------
+                                                       1.621 39.65 41.28                159.188  Liquid by sphere:    96.173  (m3)
+
+                Holdup totals:    Liquid= 159.19 m3    Oil= 159.19 m3    Water= 0 m3    Gas= .15612e8 sm3
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   31   TYPE=TUFFPU3P_e0 Inlet Pressure=150.6382 Bara                                                                     
+  FriggsToMCP0     0.0    144. 33.45245   150.6    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+                   0.0    144. 33.43771   109.4     3. 1.621 39.65 41.28    5.5  0.2679 159.188  10.80 BBRE Wave
+                                                      ------------------               --------
+                                                       1.621 39.65 41.28                159.188  Liquid by sphere:    96.173  (m3)
+
+                Holdup totals:    Liquid= 159.19 m3    Oil= 159.19 m3    Water= 0 m3    Gas= .15612e8 sm3
+
+ CASE NO.   32   TYPE=TUFFPU2P Inlet Pressure=150.6382 Bara                                                                        
+  FriggsToMCP0     0.0    144. 33.45245   150.6    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+                   0.0    144. 33.43771   109.4     3. 1.621 39.65 41.28    5.5  0.2679 159.188  10.80 BBRE Wave
+                                                      ------------------               --------
+                                                       1.621 39.65 41.28                159.188  Liquid by sphere:    96.173  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   33   TYPE=LEDA3P1.2e-2 Inlet Pressure=148.823 Bara                                                                     
+  FriggsToMCP0     0.0    144. 33.45204   148.8    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.381;
+           T= 42.09378, 42.09378, dt= -.194778-5; H= -85.67462, -85.67462, dh= .1163154-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.381;
+           T= 42.09378, 42.09378, dt= -.194778-5; H= -85.67462, -85.67462, dh= .116316-5
+          
+
+                   0.0    144. 33.43775   109.4     4. 1.597 37.82 39.42    5.5  0.2678 219.852  10.82 BBRE Wave
+                                                      ------------------               --------
+                                                       1.597 37.82 39.42                219.852  Liquid by sphere:   156.517  (m3)
+
+                Holdup totals:    Liquid= 219.85 m3    Oil= 219.85 m3    Water= 0 m3    Gas= .15465e8 sm3
+
+ CASE NO.   34   TYPE=LEDA2P1.2 Inlet Pressure=148.823 Bara                                                                        
+  FriggsToMCP0     0.0    144. 33.45204   148.8    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.381;
+           T= 42.09378, 42.09378, dt= -.194778-5; H= -85.67462, -85.67462, dh= .1163154-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1781.381;
+           T= 42.09378, 42.09378, dt= -.194778-5; H= -85.67462, -85.67462, dh= .116316-5
+          
+
+                   0.0    144. 33.43775   109.4     4. 1.597 37.82 39.42    5.5  0.2678 219.852  10.82 BBRE Wave
+                                                      ------------------               --------
+                                                       1.597 37.82 39.42                219.852  Liquid by sphere:   156.517  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   35   TYPE=Xiao1 Inlet Pressure=150.9742 Bara                                                                           
+  FriggsToMCP0     0.0    144. 33.45253   151.0    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1789.353;
+           T= 41.96298, 41.96298, dt= -.167354-5; H= -86.03312, -86.03312, dh= .1399419-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1789.353;
+           T= 41.96298, 41.96298, dt= -.167353-5; H= -86.03312, -86.03312, dh= .1399423-5
+          
+
+                   0.0    144. 33.43771   109.4     3. 1.572 40.02 41.60    5.5  0.2679 259.567  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.572 40.02 41.60                259.567  Liquid by sphere:   196.659  (m3)
+
+ CASE NO.   36   TYPE=Xiao2 Inlet Pressure=150.9742 Bara                                                                           
+  FriggsToMCP0     0.0    144. 33.45253   151.0    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1789.353;
+           T= 41.96298, 41.96298, dt= -.167354-5; H= -86.03312, -86.03312, dh= .1399419-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1789.353;
+           T= 41.96298, 41.96298, dt= -.167353-5; H= -86.03312, -86.03312, dh= .1399423-5
+          
+
+                   0.0    144. 33.43771   109.4     3. 1.572 40.02 41.60    5.5  0.2679 259.567  10.81 BBRE Wave
+                                                      ------------------               --------
+                                                       1.572 40.02 41.60                259.567  Liquid by sphere:   196.659  (m3)
+
+ CASE NO.   37   TYPE=BB1 Inlet Pressure=140.108 Bara                                                                              
+  FriggsToMCP0     0.0    144. 33.45015   140.1    28. 0.000 0.000 0.000    5.0  0.0225 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1909.345;
+           T= 44.5371, 44.5371, dt= -.134192-5; H= -87.51432, -87.51432, dh= .1711895-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1909.345;
+           T= 44.5371, 44.5371, dt= -.134192-5; H= -87.51432, -87.51432, dh= .1711899-5
+          
+
+                   0.0    144. 33.43785   109.4     4. 2.346 28.35 30.70    5.6  0.2671 2429.15  11.14 BBRE Wave
+                                                      ------------------               --------
+                                                       2.346 28.35 30.70                2429.15  Liquid by sphere:  2366.347  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   38   TYPE=BBRev1 Inlet Pressure=143.082 Bara                                                                           
+  FriggsToMCP0     0.0    144. 33.45077   143.1    28. 0.000 0.000 0.000    4.9  0.0223 0.00000        BBRE Wave
+                   0.0    144. 33.43777   109.4     4. 6.648 27.03 33.69    5.5  0.2676 14327.2  12.90 BBRE Wave
+                                                      ------------------               --------
+                                                       6.648 27.03 33.69                14327.2  Liquid by sphere: 14274.164  (m3)
+
+ CASE NO.   39   TYPE=BB2 Inlet Pressure=155.6375 Bara                                                                             
+  FriggsToMCP0     0.0    144. 33.45365   155.6    28. 0.000 0.000 0.000    4.5  0.0210 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 2053.879;
+           T= 44.01808, 44.01808, dt= -.145478-5; H= -92.00456, -92.00456, dh= .1740951-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 2053.879;
+           T= 44.01808, 44.01808, dt= -.145477-5; H= -92.00456, -92.00456, dh= .1740955-5
+          
+
+                   0.0    144. 33.43763   109.4     3. 2.147 44.11 46.26    5.5  0.2685 2404.40  11.04 BBRE Wave
+                                                      ------------------               --------
+                                                       2.147 44.11 46.26                2404.40  Liquid by sphere:  2344.209  (m3)
+
+ CASE NO.   40   TYPE=BBRev2 Inlet Pressure=158.3576 Bara                                                                          
+  FriggsToMCP0     0.0    144. 33.45432   158.4    28. 0.000 0.000 0.000    4.5  0.0206 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 2083.921;
+           T= 43.94208, 43.94208, dt= -.171028-5; H= -92.87078, -92.87078, dh= .1546812-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 2083.921;
+           T= 43.94208, 43.94208, dt= -.171027-5; H= -92.87078, -92.87078, dh= .1546816-5
+          
+
+                   0.0    144. 33.43758   109.4     3. 6.387 42.56 48.95    5.5  0.2689 14169.6  12.78 BBRE Wave
+                                                      ------------------               --------
+                                                       6.387 42.56 48.95                14169.6  Liquid by sphere: 14119.484  (m3)
+
+
+                <-Stock Tank->    <--------------------------- Flowing ------------------------------------>
+
+                 Water  Liquid    Free    Pres.  Temp.   Pressure Losses  Mixt.  Liquid  Liquid  Slug   Flow
+                   Cut   Flow      Gas                       (Bar)         Vel.  Holdup  Holdup Number  Pattern
+                   (%)  (m3/d) (mmsm3d)  (Bara)   (C)  Elev.  Frn. Total  (m/s)   frn.    (m3) (PI-SS)
+
+ CASE NO.   41   TYPE=Oliemanist1 Inlet Pressure=150.5488 Bara                                                                     
+  FriggsToMCP0     0.0    144. 33.45243   150.5    28. 0.000 0.000 0.000    4.7  0.0216 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1788.222;
+           T= 41.9844, 41.9844, dt= -.198582-5; H= -85.97991, -85.97991, dh= .1139118-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 1788.222;
+           T= 41.9844, 41.9844, dt= -.198581-5; H= -85.97991, -85.97991, dh= .1139123-5
+          
+
+                   0.0    144. 33.43772   109.4     3. 1.575 39.60 41.18    5.5  0.2679 171.358  10.80 BBRE Wave
+                                                      ------------------               --------
+                                                       1.575 39.60 41.18                171.358  Liquid by sphere:   108.306  (m3)
+
+ CASE NO.   42   TYPE=HughDuk1 Inlet Pressure=157.9662 Bara                                                                        
+  FriggsToMCP0     0.0    144. 33.45423   158.0    28. 0.000 0.000 0.000    4.5  0.0207 0.00000        BBRE Wave
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 2092.552;
+           T= 44.17142, 44.17142, dt= -.128107-5; H= -92.90215, -92.90215, dh= .1914783-5
+          
+
+
+ Warning     1874    : 
+          PSTEMP2: Enthalpy decreases with Temperature increase: P= 2092.552;
+           T= 44.17142, 44.17142, dt= -.128106-5; H= -92.90215, -92.90215, dh= .1914786-5
+          
+
+                   0.0    144. 33.43762   109.4     3. 2.329 46.18 48.52    5.5  0.2687 3637.58  11.20 BBRE Wave
+                                                      ------------------               --------
+                                                       2.329 46.18 48.52                3637.58  Liquid by sphere:  3579.063  (m3)
+
+ CASE NO.   43   TYPE=EatonOli1 Inlet Pressure=149.2534 Bara                                                                       
+  FriggsToMCP0     0.0    144. 33.45213   149.3    28. 0.000 0.000 0.000    4.7  0.0218 0.00000        BBRE Wave
+                   0.0    144. 33.43774   109.4     4. 1.774 38.07 39.85    5.5  0.2678 817.846  10.89 BBRE Wave
+                                                      ------------------               --------
+                                                       1.774 38.07 39.85                817.846  Liquid by sphere:   755.049  (m3)
+
+
+                                       ******** END OF JOB ******** 
+
+
+
+ Run Totals :
+
+              Cases ...........      43
+                CPin  .........      43
+              Iterations ......     233
+              Segments ........  194328
+              FCPG calls ......  390014
+              MBAL calls ......  586707
+              FLASH calls ..... 2172648
+              end job                                                     
+    CPU Seconds  1898.178 
+
+

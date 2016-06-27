@@ -20,7 +20,6 @@
 #####################################################################
 # file and path dependencies stated below, get those files first
 #####################################################################
-setwd("~/Code/R/Runs")
 source('Tools-For-Parsing-FriggsStFergus-Pipesim-Sum-Files.R')
 source('MakeListOfFilesOfTypeXInSubdirectories.R')
 source("ComputeErrorsAndVariancesFromPIPESIMResultsDataFfame.R")

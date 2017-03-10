@@ -38,3 +38,6 @@ The data and scripts was all that was needed to generate the exploratory and fin
 results, plots and tables of results in the conference paper [BHR-2016-285](<https://www.onepetro.org/conference-paper/BHR-2016-285>):
 _A comparison of 35 gas-liquid point models in a low-liquid loading subsea gas line: A technology classification effort_.
 Presented at the June 2016 10th North American Conference on Multiphase Technology in Banff, AB, Canada.
+
+The scrits will generate variables called `BB_distance_matrix` and `olgas_distances_matrix`
+that are part of the paper.

@@ -6,7 +6,7 @@ In order to execute the analysis code first copy it to
 a path  __`path/to/Main`__, then set the R working directory to that
 location with the **R** command `setwd("~/path/to/Main"")` in Linux or
 `setwd("C:\path\to\main"")` in Windows.
-This can be done from he Console panel in __RStudio__ or directly via 
+This can be done from the Console panel in __RStudio__ or directly via 
 an **R** command console window. 
  
 The assumption of the driver script, *Main.R*, and its helpers, is that all necessary 
